@@ -17,7 +17,7 @@ const StyledHeader = styled(Header)`
 `;
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover`}
-  background-image: url("https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80");
+  background-image: url("https://images.unsplash.com/photo-1596633608169-2ee5f4ed60e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 opacity-25`;
