@@ -56,7 +56,7 @@ export default ({
   cards = null,
   heading = "Our Mission",
   subheading = "",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  description = "Edge was founded as a response to the rise of for-profit tutoring. We believe all students should have the right to free education and help when they need it."
 }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
@@ -70,13 +70,29 @@ export default ({
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security infrastructure."
+      description: "Our services are free of charge meaning you don’t have to worry about transactions.",
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { 
+      imageSrc: SupportIconImage, 
+      title: "24/7 Support",
+      description: "Our mentors are virtually always on call; just shoot us a text and we'll be there!",
+    },
+    { 
+      imageSrc: CustomizeIconImage, 
+      title: "Customizable",
+      description: "Our learning services cater specifically to your needs; not anyone else's." },
+    { 
+      imageSrc: ReliableIconImage, 
+      title: "Proactive",
+      description: "Give your student an edge in their school classes as well as academic competitions." },
+    { 
+      imageSrc: FastIconImage, 
+      title: "Fast",
+      description: "Get help fast and when you need it. Results will come even faster." },
+    { 
+      imageSrc: SimpleIconImage, 
+      title: "Easy",
+      description: "Scheduling a class is as easy as filling out a form. We'll make sure to get back to you within one business day." }
   ];
 
   if (!cards) cards = defaultCards;

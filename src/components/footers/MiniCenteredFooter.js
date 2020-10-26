@@ -36,15 +36,14 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>edge tutors</LogoText>
+            <LogoText>edge learning</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
-            <Link href="#">Blog</Link>
             <Link href="#">Our Team</Link>
             <Link href="#">Contact Us</Link>
-            <Link href="#">Donate</Link>
+            <Link href="#">Sign Up</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -58,7 +57,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, edge tutors. | Made with ❤️ by Kevin Lan
+            &copy; Copyright 2020, edge learning | Made with ❤️ by Kevin Lan
           </CopyrightText>
         </Row>
       </Content>

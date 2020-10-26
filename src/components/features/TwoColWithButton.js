@@ -44,10 +44,10 @@ export default ({
   subheading = "",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      For <span tw = "text-primary-500">Students</span>, by <span tw="text-primary-500">Students.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Our team is composed of award-winning individuals who have achieved academic greatness as well as collected numerous accolades from various competitions and olympiads. We are committed to helping our peers succeed.",
   primaryButtonText = "Meet our team",
   primaryButtonUrl = "/our-team",
   imageSrc = TeamIllustrationSrc,

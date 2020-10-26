@@ -77,7 +77,7 @@ export default ({
   primaryButtonText = "Sign Up",
   planDurations = [
     {
-      text: "Month",
+      text: "forever",
       switcherText: "Monthly",
     },
     {
@@ -88,18 +88,11 @@ export default ({
 }) => {
   const defaultPlans = [
     {
-      name: "Basic Plan",
+      name: "All-Encompassing Plan",
       durationPrices: ["$0", "$0"],
-      mainFeature: "For younger students",
+      mainFeature: "",
       features: ["STEM Subjects", "ELA/Humanities", "Introduction to Olympiads"]
     },
-    {
-      name: "Pro Plan",
-      durationPrices: ["$0", "$0"],
-      mainFeature: "For advanced, high school students",
-      features: ["STEM Subjects", "Humanities", "Olympiads"],
-      featured: true
-    }
   ];
 
   if (!plans) plans = defaultPlans;
@@ -113,11 +106,6 @@ export default ({
           {subheading && <Subheading>{subheading}</Subheading>}
           <Heading>{heading}</Heading>
           {description && <Description>{description}</Description>}
-        <PlanDurationSwitcher>
-          {planDurations.map((planDuration, index) => (
-            <SwitchButton active={activeDurationIndex === index} key={index} onClick={() => setActiveDurationIndex(index)}>{planDuration.switcherText}</SwitchButton>
-          ))}
-        </PlanDurationSwitcher>
         </HeaderContainer>
         <PlansContainer>
           {plans.map((plan, index) => (

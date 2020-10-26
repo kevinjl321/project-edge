@@ -44,7 +44,7 @@ export default ({
       Community Impact
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "At Edge Learning, we believe education and personalized help is a right, not a privilege. Through our services, we have helped several students overcome their academic hardships as well as soar to new heights. ",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "",
   imageSrc = StatsIllustrationSrc,
@@ -58,22 +58,22 @@ export default ({
 }) => {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
   //Change the statistics variable as you like, add or delete objects
-  const defaultStatistics = [
+  
+  /*const defaultStatistics = [
     {
-      key: "Clients",
-      value: "2282+"
+      key: "Students",
+      value: "69"
     },
     {
-      key: "Projects",
-      value: "3891+"
+      key: "Hours Taught",
+      value: "69"
     },
     {
       key: "Awards",
-      value: "1000+"
+      value: "69"
     }
   ];
-
-  if (!statistics) statistics = defaultStatistics;
+  */
 
   return (
     <Container>
@@ -86,6 +86,7 @@ export default ({
           <TextContent>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
+            {/*
             <Statistics>
               {statistics.map((statistic, index) => (
                 <Statistic key={index}>
@@ -94,6 +95,7 @@ export default ({
                 </Statistic>
               ))}
             </Statistics>
+              */}
             <PrimaryButton as="a" href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>
