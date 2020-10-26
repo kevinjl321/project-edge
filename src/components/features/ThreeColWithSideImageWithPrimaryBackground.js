@@ -15,7 +15,7 @@ import FastIconImage from "images/fast-icon.svg";
 import ReliableIconImage from "images/reliable-icon.svg";
 import SimpleIconImage from "images/simple-icon.svg";
 
-const Container = tw.div`relative bg-primary-600 -mx-8 px-8 text-gray-100`;
+const Container = tw.div`relative bg-gray-900 -mx-8 px-8 text-gray-100`;
 
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24`}
