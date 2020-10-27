@@ -91,7 +91,7 @@ export default ({
       name: "All-Encompassing Plan",
       durationPrices: ["$0", "$0"],
       mainFeature: "",
-      features: ["STEM Subjects", "ELA/Humanities", "Introduction to Olympiads"]
+      features: ["STEM Subjects", "ELA/Humanities", "Introduction to Olympiads", "...and more!"]
     },
   ];
 

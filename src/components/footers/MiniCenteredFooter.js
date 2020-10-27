@@ -42,8 +42,8 @@ export default () => {
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
             <Link href="#">Our Team</Link>
+
             <Link href="#">Contact Us</Link>
-            <Link href="#">Sign Up</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -57,7 +57,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, edge learning | Made with ❤️ by edge learning webdev
+            &copy; copyright 2020, edge learning | made with ❤️ by edge learning webdev
           </CopyrightText>
         </Row>
       </Content>

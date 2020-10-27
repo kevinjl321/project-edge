@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
-import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none`}
