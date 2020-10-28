@@ -56,7 +56,7 @@ export default () => {
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">
+      <PrimaryLink target = "_blank"href="https://forms.gle/U1Udb5DsHZz5nKAW9">
         SIGN UP
       </PrimaryLink>
     </NavLinks>
@@ -74,7 +74,7 @@ export default () => {
               <br />
               <SlantedBackground>one student at a time.</SlantedBackground>
             </Heading>
-            <PrimaryAction>Learn More</PrimaryAction>
+            <a href = "/about"><PrimaryAction>Learn More</PrimaryAction></a>
           </LeftColumn>
         </TwoColumn>
       </HeroContainer>

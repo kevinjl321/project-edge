@@ -41,7 +41,7 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 export default ({
   heading = (
     <>
-      Community Impact
+      Mission Statement
     </>
   ),
   description = "At Edge Learning, we believe education and personalized help is a right, not a privilege. Through our services, we have helped several students overcome their academic hardships as well as soar to new heights. ",
@@ -96,7 +96,7 @@ export default ({
               ))}
             </Statistics>
               */}
-            <PrimaryButton as="a" href={primaryButtonUrl}>
+            <PrimaryButton as="a" href="/about">
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>

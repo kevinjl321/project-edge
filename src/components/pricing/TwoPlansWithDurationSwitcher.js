@@ -126,7 +126,7 @@ export default ({
                   </span>
                 ))}
               </PlanFeatures>
-              <PlanAction>
+              <PlanAction as = "a" target = "_blank" href = "https://forms.gle/U1Udb5DsHZz5nKAW9">
                 <BuyNowButton>{primaryButtonText}</BuyNowButton>
               </PlanAction>
             </Plan>

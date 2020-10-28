@@ -8,7 +8,7 @@ import { SectionDescription } from "components/misc/Typography.js";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
-const Container = tw.div`relative`;
+const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
 
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24`}
@@ -49,7 +49,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Our Offices", subheading = "Locations", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Subjects", subheading = "", description = "Our educators specialize in a plethora of subjects: from high school STEM to business management, we have it all!" }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) title - the title of the card
@@ -59,28 +59,40 @@ export default ({ cards = null, heading = "Our Offices", subheading = "Locations
 
   const defaultCards = [
     {
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      title: "STEM",
+      description: "Our educators are well versed in high-school level Math, Chemistry, Physics, Biology, Computer Science and more. Our educators have extensive experience in these fields, having conducted research projects in conjunction with top colleges and professors."
+    },
+    {  
+      title: "SAT / AP",
+      description: "In order to maximize your potential for college admissions, we are offering assistance and tips from educators who have scored in the 99+ percentile on their official SATs. Our team is also able to provide supplemental help for a multitude of AP subjects, all of which they have scored 5s on."
     },
     { 
-      title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Olympiads",
+      description: "Interested in taking your academics to the next level? Our team has collected numerous awards from academic competitions and will provide the facilities you need to succeed in national math, science, and computing olympiads."
     },
     { 
-      title: "Reliable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Humanities",
+      description: "Learn vital skills of essay writing, persuasive speaking, literary analysis, as well as improving your vocabulary. Our educators have extensive experience with all things language arts that will surely enrich your own skills."
     },
     { 
-      title: "Easy",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Music",
+      description: "Learn music theory as well as the ins and outs of various instruments such as violin and piano. If you prefer something more modern, we are able to teach basic music production using programs like FL Studio and Ableton."
     },
     { 
-      title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Business",
+      description: "Learn important business-related skills in the fields of marketing, finance, and management that will train your entreprenurial mind and enable you to be successful running your own business or managing your own projects."
     },
     { 
-      title: "Fast",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Computer Science",
+      description: "Learn the basics of programming, or take your existing skills to the next level. Our instructors will teach everything from machine learning to full stack development, whether you're a beginner or budding programmer."
+    },
+    { 
+      title: "Public Speaking",
+      description: "Effective communication is a vital trait to have inside and outside school. That's why we offer lessons in public speaking to help you overcome fear of talking to others and improve your ability to express yourself!"
+    },
+    { 
+      title: "History & Government",
+      description: "As a citizen of this nation, it is important to learn about our country's history and government. Learn everything from the cause of World War I to the pressing social issues of today's governmental policies and laws."
     },
   ];
 

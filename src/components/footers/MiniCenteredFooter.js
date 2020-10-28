@@ -39,17 +39,17 @@ export default () => {
             <LogoText>edge learning</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Our Team</Link>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/our-team">Our Team</Link>
 
-            <Link href="#">Contact Us</Link>
+            <Link href="/contact">Contact Us</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
+            <SocialLink href="https://instagram.com/edge_learning">
               <TwitterIcon />
             </SocialLink>
             <SocialLink href="https://youtube.com">

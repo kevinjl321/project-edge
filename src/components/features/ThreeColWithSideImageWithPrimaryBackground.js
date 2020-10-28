@@ -54,7 +54,7 @@ const Card = styled.div`
 
 export default ({
   cards = null,
-  heading = "Our Mission",
+  heading = "What is Edge Learning?",
   subheading = "",
   description = "Edge was founded as a response to the rise of for-profit tutoring. We believe all students should have the right to free education and help when they need it."
 }) => {

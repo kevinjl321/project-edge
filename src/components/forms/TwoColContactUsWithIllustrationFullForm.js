@@ -38,8 +38,8 @@ export default ({
   heading = <>Contact Us</>,
   description = "Have any questions about what we do? Interested in becoming an educator? Just want to talk? Shoot us an email through the form below and we'll get back to you within a few business days.",
   submitButtonText = "Submit",
-  formAction = "#",
-  formMethod = "get",
+  formAction = "https://getform.io/f/500b1cfc-5a01-47ee-9923-31ff78d83bd1",
+  formMethod = "POST",
   textOnLeft = true,
 }) => {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
