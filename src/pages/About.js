@@ -9,6 +9,7 @@ import AboutInfo from "components/cards/ThreeColContactDetails"
 import Testimonial from "components/testimonials/TwoColumnWithImage"
 
 function About() {
+    document.title = "about | edge learning";
     return (
       <AnimationRevealPage disabled>
         <Header />
