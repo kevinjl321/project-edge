@@ -8,7 +8,7 @@ import {SectionDescription} from "components/misc/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
-import Zihao from "images/zihao.jpg";
+import Zihao from "images/magik.png";
 
 const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
 const HeadingContainer = tw.div``

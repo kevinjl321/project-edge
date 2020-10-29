@@ -38,7 +38,7 @@ export default ({
   heading = <>Contact Us</>,
   description = "Have any questions about what we do? Interested in becoming an educator? Just want to talk? Shoot us an email through the form below and we'll get back to you within a few business days.",
   submitButtonText = "Submit",
-  formAction = "https://getform.io/f/500b1cfc-5a01-47ee-9923-31ff78d83bd1",
+  formAction = "https://getform.io/f/8866f353-9bf2-4fbe-baa4-682b0c6d8623",
   formMethod = "POST",
   textOnLeft = true,
 }) => {
