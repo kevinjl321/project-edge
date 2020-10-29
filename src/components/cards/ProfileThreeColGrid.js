@@ -8,6 +8,7 @@ import {SectionDescription} from "components/misc/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import Zihao from "images/zihao.jpg";
 
 const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
 const HeadingContainer = tw.div``
@@ -47,9 +48,9 @@ export default ({
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   cards = [
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Founder",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -66,9 +67,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Sr. Designer",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -85,9 +86,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Jr. Designer",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -104,9 +105,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Lead Developer",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -123,9 +124,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Sr. Developer",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -142,9 +143,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -161,9 +162,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -180,9 +181,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -199,9 +200,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -218,9 +219,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -237,9 +238,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -256,9 +257,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -275,9 +276,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -294,9 +295,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -313,9 +314,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -332,9 +333,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -351,9 +352,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -370,9 +371,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -389,9 +390,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
@@ -408,9 +409,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+      imageSrc: Zihao,
       position: "Quality Assurance",
-      name: "Nugget",
+      name: "Zhuhai",
       links: [
         {
           url: "https://twitter.com",
