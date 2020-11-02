@@ -15,7 +15,7 @@ import Randy from "images/Randy.jpg";
 import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
 import Srini from "images/Srinivasan.png"
-import Philip from "images/Philip.png"
+import Philip from "images/Philip.jpg"
 
 import { m } from "framer-motion";
 
@@ -184,7 +184,7 @@ export default ({
       imageSrc: Philip,
       position: "Educator",
       name: "Philip Leung",
-      content: "Philip is a STEM and chess instructor who enjoys playing League of Legends and all kinds of first person shooters. Outside of Edge, Philip is a nationally ranked chess player and enjoys all things video games.",
+      content: "Philip is a STEM and chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
       links: [
         {
           url: "https://twitter.com",

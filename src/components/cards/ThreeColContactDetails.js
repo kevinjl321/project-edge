@@ -71,7 +71,7 @@ export default ({ cards = null, heading = "Subjects", subheading = "", descripti
       description: "Interested in taking your academics to the next level? Our team has collected numerous awards from academic competitions and will provide the facilities you need to succeed in national math, science, and computing olympiads."
     },
     { 
-      title: "Humanities",
+      title: "ELA",
       description: "Learn vital skills of essay writing, persuasive speaking, literary analysis, as well as improving your vocabulary. Our educators have extensive experience with all things language arts that will surely enrich your own skills."
     },
     { 
