@@ -57,7 +57,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; copyright 2020, edge learning | made with ❤️ by edge learning webdev
+            &copy; copyright 2020, edge learning | designed and developed by kevin lan
           </CopyrightText>
         </Row>
       </Content>
