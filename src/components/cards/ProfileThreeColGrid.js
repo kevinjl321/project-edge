@@ -14,6 +14,7 @@ import Dowson from "images/Dowson.jpeg";
 import Marcus from "images/Marcus.jpg";
 import Randy from "images/Randy.jpg";
 import Mark from "images/Mark.jpg"
+import Kevin from "images/Kevin.jpg"
 
 import { m } from "framer-motion";
 
@@ -60,9 +61,29 @@ export default ({
   cards = [
     {
       imageSrc: Marcus,
-      position: "Founder",
-      name: "Zhuhai",
-      content: "Marcus is a Business Management, Chemistry, and Writing tutor who has enjoyed instructing students from 8th grade to 10th grade in numerous leadership training camps. Outside of Edge Learning, Marcus serves as the Business President of his school's robotics team and the President of his school's Red Cross club.",
+      position: "Co-founder, COO",
+      name: "Marcus Chua",
+      content: "Marcus is a Business, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of the robotics team and President of Red Cross club.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Kevin,
+      position: "Co-founder, CTO",
+      name: "Kevin Lan",
+      content: "Kevin is a STEM and Computer Science tutor who has developed numerous websites. Outside of Edge, he runs the Computing Club and also enjoys working on projects and participating in programming competitions. ",
       links: [
         {
           url: "https://twitter.com",
@@ -80,8 +101,8 @@ export default ({
     },
     {
       imageSrc: Randy,
-      position: "Sr. Designer",
-      name: "Zhuhai",
+      position: "Co-founder, Educator",
+      name: "Randy Cai",
       content: "Randy is a Biology, Chemistry, and Math tutor who enjoys learning about all things STEM. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
         {
@@ -100,9 +121,9 @@ export default ({
     },
     {
       imageSrc: Dowson,
-      position: "Jr. Designer",
-      name: "Zhuhai",
-      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge Learning, Dowson is on the Robotics Team, Math Team, and Varsity Golf Team.",
+      position: "Co-founder, CAO",
+      name: "Dowson Yang",
+      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with the Robotics Team, Math Team, and Varsity Golf Team.",
       links: [
         {
           url: "https://twitter.com",
@@ -120,9 +141,9 @@ export default ({
     },
     {
       imageSrc: Mark,
-      position: "Lead Developer",
-      name: "Zhuhai",
-      content: "Mark is an English, Writing, Music, and Speech & Debate tutor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys music production.",
+      position: "Co-founder, Educator",
+      name: "Mark MacDermott",
+      content: "Mark is an English, Writing, Music, and Speech & Debate tutor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team as well as pursuing music production through self study and exploration.",
       links: [
         {
           url: "https://twitter.com",

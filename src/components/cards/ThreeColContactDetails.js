@@ -41,7 +41,7 @@ const Card = styled.div`
   }
 
   .description {
-    ${tw`mt-1 sm:mt-4 font-medium text-secondary-100 leading-loose`}
+    ${tw`mt-1 sm:mt-4 font-medium text-sm text-secondary-100 leading-loose`}
   }
 `;
 
