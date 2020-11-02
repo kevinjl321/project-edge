@@ -16,12 +16,12 @@ const NavLink = tw(NavLinkBase)`
   sm:text-sm sm:mx-6
 `;
 
-const Container = tw.div`relative -mx-8 -mt-8`;
-const TwoColumn = tw.div`flex flex-col lg:flex-row bg-gray-100`;
-const LeftColumn = tw.div`ml-8 mr-8 xl:pl-10 py-8`;
+const Container = tw.div`relative`;
+const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
+const LeftColumn = tw.div`relative lg:w-6/12 lg:pr-12 flex-shrink-0 text-center lg:text-left`;
 const RightColumn = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1551918120-9739cb430c6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&width=1440&height=1024&q=75");
-  ${tw`bg-green-500 bg-cover bg-center xl:ml-24 h-96 lg:h-auto lg:w-1/2 lg:flex-1`}
+  background-image: url("https://images.unsplash.com/photo-1596633608169-2ee5f4ed60e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  ${tw`bg-center xl:ml-24 h-0 lg:h-auto lg:w-1/12 lg:flex-1`}
 `;
 
 const Content = tw.div`mt-24 lg:mt-24 lg:mb-24 flex flex-col sm:items-center lg:items-stretch`;

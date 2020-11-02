@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Hero from "components/hero/BackgroundAsImage"
+import Hero from "components/hero/TwoColumnWithVideo"
 import Footer from "components/footers/MiniCenteredFooter"
 import Stats from "components/features/TwoColSingleFeatureWithStats2";
 import About from "components/features/ThreeColWithSideImageWithPrimaryBackground"

@@ -13,28 +13,19 @@ import { ReactComponent as PlayIcon } from "feather-icons/dist/icons/play-circle
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.svg";
-import DesignIllustration from "../../images/design-illustration.svg";
+import DesignIllustration from "../../images/graduation.svg";
 
-const Container = tw.div`relative`;
+const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
 const LeftColumn = tw.div`relative lg:w-6/12 lg:pr-12 flex-shrink-0 text-center lg:text-left`;
-const RightColumn = tw.div`relative mt-12 lg:mt-0 flex flex-col justify-center`;
+const RightColumn = tw.div`relative mt-12 lg:mt-0 flex-1 flex flex-col justify-center lg:self-end`;
 
 const Heading = tw.h1`font-black text-3xl md:text-5xl leading-snug max-w-3xl`;
-const Paragraph = tw.p`my-5 lg:my-8 text-sm lg:text-base font-medium text-gray-600 max-w-lg mx-auto lg:mx-0`;
+const Paragraph = tw.p`my-5 lg:my-8 text-xl lg:text-xl font-medium text-gray-500 max-w-lg mx-auto lg:mx-0`;
 
 const Actions = tw.div`flex flex-col items-center sm:flex-row justify-center lg:justify-start mt-8`;
-const PrimaryButton = tw.button`font-bold px-8 lg:px-10 py-3 rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 focus:shadow-outline focus:outline-none transition duration-300`;
-const WatchVideoButton = styled.button`
-  ${tw`mt-4 sm:mt-0 sm:ml-8 flex items-center text-secondary-300 transition duration-300 hocus:text-primary-400 focus:outline-none`}
-  .playIcon {
-    ${tw`stroke-1 w-12 h-12`}
-  }
-  .playText {
-    ${tw`ml-2 font-medium`}
-  }
-`;
-
+const PrimaryButton = tw.button`font-bold px-8 lg:px-10 py-3 rounded bg-gray-100 text-primary-600 hocus:bg-primary-700 focus:shadow-outline focus:outline-none transition duration-300`;
+const SecondaryButton = tw.button`mt-3 mx-6 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 font-bold px-8 lg:px-10 py-3 rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 focus:shadow-outline focus:outline-none transition duration-300`;
 const IllustrationContainer = tw.div`flex justify-center md:justify-end items-center relative max-w-3xl lg:max-w-none`;
 
 // Random Decorator Blobs (shapes that you see in background)
@@ -59,10 +50,16 @@ const StyledModal = styled(ReactModalAdapter)`
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
-  heading = "Modern React Templates, Just For You",
- description="Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
-  primaryButtonText="Get Started",
-  primaryButtonUrl="#",
+  heading = <>
+  Changing education as we know it
+  <wbr />
+  <span tw="text-primary-500"> one student at a time.</span>
+</>,
+  description="Further your education. Learn real world skills. All for the low price of $0, no catches, no hidden fees ever.",
+  primaryButtonText="Learn More",
+  primaryButtonUrl="/about",
+  secondaryButtonText = "Sign Up",
+  secondaryButtonUrl = "https://docs.google.com/forms/d/e/1FAIpQLScllcWv5IQ8ftIH7-V5dnsqLDk_X2EE_SzL7yQIdhiAdubRYw/viewform?usp=send_form",
   watchVideoButtonText="Watch Video",
   watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
   imageSrc=DesignIllustration,
@@ -83,12 +80,7 @@ export default ({
             <Paragraph>{description}</Paragraph>
             <Actions>
               <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              <WatchVideoButton onClick={toggleModal}>
-                <span className="playIconContainer">
-                  <PlayIcon className="playIcon" />
-                </span>
-                <span className="playText">{watchVideoButtonText}</span>
-              </WatchVideoButton>
+              <SecondaryButton as="a" target = "_blank" href={secondaryButtonUrl}>{secondaryButtonText}</SecondaryButton>
             </Actions>
           </LeftColumn>
           <RightColumn>

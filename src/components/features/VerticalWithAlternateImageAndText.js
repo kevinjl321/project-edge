@@ -4,7 +4,7 @@ import tw from "twin.macro";
 import { ReactComponent as SvgDotPatternIcon } from "../../images/dot-pattern.svg";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 
-const Container = tw.div`relative bg-primary-200 text-gray-700 -mx-8 px-8`;
+const Container = tw.div`relative bg-gray-800 text-gray-700 -mx-8 px-8`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
