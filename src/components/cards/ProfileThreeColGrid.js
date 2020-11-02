@@ -8,7 +8,14 @@ import {SectionDescription} from "components/misc/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+
 import Zihao from "images/magik.png";
+import Dowson from "images/Dowson.jpeg";
+import Marcus from "images/Marcus.jpg";
+import Randy from "images/Randy.jpg";
+import Mark from "images/Mark.jpg"
+
+import { m } from "framer-motion";
 
 const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
 const HeadingContainer = tw.div``
@@ -31,6 +38,9 @@ const CardContent = styled.div`
   .name {
     ${tw`mt-1 text-xl font-medium text-gray-100`}
   }
+  .content{
+    ${tw`mt-1 mx-5 text-base font-medium text-gray-500`}
+  }
 `
 
 const CardLinks = styled.div`
@@ -49,9 +59,10 @@ export default ({
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   cards = [
     {
-      imageSrc: Zihao,
+      imageSrc: Marcus,
       position: "Founder",
       name: "Zhuhai",
+      content: "Marcus is a Business Management, Chemistry, and Writing tutor who has enjoyed instructing students from 8th grade to 10th grade in numerous leadership training camps. Outside of Edge Learning, Marcus serves as the Business President of his school's robotics team and the President of his school's Red Cross club.",
       links: [
         {
           url: "https://twitter.com",
@@ -68,9 +79,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Zihao,
+      imageSrc: Randy,
       position: "Sr. Designer",
       name: "Zhuhai",
+      content: "Randy is a Biology, Chemistry, and Math tutor who enjoys learning about all things STEM. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -87,9 +99,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Zihao,
+      imageSrc: Dowson,
       position: "Jr. Designer",
       name: "Zhuhai",
+      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge Learning, Dowson is on the Robotics Team, Math Team, and Varsity Golf Team.",
       links: [
         {
           url: "https://twitter.com",
@@ -106,9 +119,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Zihao,
+      imageSrc: Mark,
       position: "Lead Developer",
       name: "Zhuhai",
+      content: "Mark is an English, Writing, Music, and Speech & Debate tutor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys music production.",
       links: [
         {
           url: "https://twitter.com",
@@ -179,7 +193,9 @@ export default ({
               <CardContent>
                 <span className="position">{card.position}</span>
                 <span className="name">{card.name}</span>
-                <span className="content">{card.description}</span>
+                <Content>
+                  <p className="content">{card.content}</p>
+                </Content>
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (
                     <a key={linkIndex} className="link" href={link.url}>

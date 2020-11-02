@@ -44,9 +44,8 @@ const Actions = styled.div`
 export default ({
   navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">About</NavLink>
-      <NavLink href="#">Blog</NavLink>
-      <NavLink href="#">Pricing</NavLink>
+      <NavLink href="/about">About</NavLink>
+      <NavLink href="/our-team">Our Team</NavLink>
       <NavLink href="#">Login</NavLink>
     </NavLinks>
   ],
