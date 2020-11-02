@@ -15,6 +15,7 @@ import Marcus from "images/Marcus.jpg";
 import Randy from "images/Randy.jpg";
 import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
+import Srini from "images/Srinivasan.png"
 
 import { m } from "framer-motion";
 
@@ -100,10 +101,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Randy,
-      position: "Co-founder, Educator",
-      name: "Randy Cai",
-      content: "Randy is a Biology, Chemistry, and Math tutor who enjoys learning about all things STEM. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
+      imageSrc: Dowson,
+      position: "Co-founder, CAO",
+      name: "Dowson Yang",
+      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with the Robotics Team, Math Team, and Varsity Golf Team.",
       links: [
         {
           url: "https://twitter.com",
@@ -120,10 +121,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Dowson,
-      position: "Co-founder, CAO",
-      name: "Dowson Yang",
-      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with the Robotics Team, Math Team, and Varsity Golf Team.",
+      imageSrc: Randy,
+      position: "Co-founder, Educator",
+      name: "Randy Cai",
+      content: "Randy is a Biology, Chemistry, and Math tutor who enjoys learning about all things STEM. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -160,28 +161,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Zihao,
-      position: "Sr. Developer",
-      name: "Zhuhai",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Zihao,
-      position: "Quality Assurance",
-      name: "Zhuhai",
+      imageSrc: Srini,
+      position: "Co-founder, Educator",
+      name: "Srinivasan Arumugham",
+      content: "Srinivasan is a STEM and Computer Science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
       links: [
         {
           url: "https://twitter.com",
