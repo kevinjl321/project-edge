@@ -9,13 +9,13 @@ import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 
-import Zihao from "images/magik.png";
 import Dowson from "images/Dowson.jpeg";
 import Marcus from "images/Marcus.jpg";
 import Randy from "images/Randy.jpg";
 import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
 import Srini from "images/Srinivasan.png"
+import Philip from "images/Philip.png"
 
 import { m } from "framer-motion";
 
@@ -165,6 +165,26 @@ export default ({
       position: "Co-founder, Educator",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and Computer Science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Philip,
+      position: "Educator",
+      name: "Philip Leung",
+      content: "Philip is a STEM and chess instructor who enjoys playing League of Legends and all kinds of first person shooters. Outside of Edge, Philip is a nationally ranked chess player and enjoys all things video games.",
       links: [
         {
           url: "https://twitter.com",
