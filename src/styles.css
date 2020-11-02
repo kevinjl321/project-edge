@@ -5,3 +5,24 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.ln{
+    color: transparent;
+}
+
+.tw{
+    --s: #4fd1c5;
+}
+
+.tv{
+    --r: #338cf5;
+    --i: var(--r),var(--s,rgba(51,140,245,0));
+}
+
+.tl{
+    background-image: linear-gradient(90deg,var(--i));
+}
+
+.w{
+    -webkit-background-clip: text;
+}
