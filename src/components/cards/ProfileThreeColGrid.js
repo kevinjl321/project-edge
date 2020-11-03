@@ -16,6 +16,7 @@ import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
 import Srini from "images/Srinivasan.png"
 import Philip from "images/Philip.jpg"
+import Lawrence from "images/Lawrence.jpg"
 
 import { m } from "framer-motion";
 
@@ -165,6 +166,26 @@ export default ({
       position: "Co-founder, Educator",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and Computer Science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Lawrence,
+      position: "Co-founder, Educator",
+      name: "Lawrence Chao",
+      content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech Chemistry research group.",
       links: [
         {
           url: "https://twitter.com",
