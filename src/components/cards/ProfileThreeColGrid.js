@@ -185,7 +185,7 @@ export default ({
       imageSrc: Lawrence,
       position: "Co-founder, Educator",
       name: "Lawrence Chao",
-      content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech Chemistry research group.",
+      content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
       links: [
         {
           url: "https://twitter.com",
