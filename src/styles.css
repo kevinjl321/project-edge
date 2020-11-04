@@ -11,16 +11,16 @@
 }
 
 .tw{
-    --s: #4fd1c5;
+    --s: #3ef0de;
 }
 
 .tv{
-    --r: #338cf5;
-    --i: var(--r),var(--s,rgba(51,140,245,0));
+    --r: #469cff;
+    --i: var(--r),var(--s,rgba(69, 142, 224, 0));
 }
 
 .tl{
-    background-image: linear-gradient(90deg,var(--i));
+    background-image: -webkit-linear-gradient(90deg,var(--i));
 }
 
 .w{
