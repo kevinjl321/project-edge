@@ -53,7 +53,7 @@ export default ({
   heading = <>
   Changing education as we know it
   <wbr />
-  <span className = "w ln tl tv tw"> one student at a time.</span>
+  <span class = "text-color"> one student at a time.</span>
 </>,
   description="Further your education. Learn real world skills. All for the low price of $0, no catches, no hidden fees ever.",
   primaryButtonText="Learn More",

@@ -17,6 +17,8 @@ import Kevin from "images/Kevin.jpg"
 import Srini from "images/Srinivasan.png"
 import Philip from "images/Philip.jpg"
 import Lawrence from "images/Lawrence.jpg"
+import Corey from "images/Corey.jpg"
+import Lucas from "images/Lucas.jpg"
 
 import { m } from "framer-motion";
 
@@ -59,7 +61,7 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet Our Educators!",
   subheading = "Our Team",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "Each of our instructors have extensive experience in their fields and are eager to teach and assist their peers, free of cost during this difficult time.",
   cards = [
     {
       imageSrc: Marcus,
@@ -186,6 +188,46 @@ export default ({
       position: "Co-founder, Educator",
       name: "Lawrence Chao",
       content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Corey,
+      position: "Co-founder, Educator",
+      name: "Corey Sy",
+      content: "Corey is a STEM and music theory tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he likes to work with electronics and hang out with friends.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Lucas,
+      position: "Co-founder, Educator",
+      name: "Lucas Chen",
+      content: "Lucas is a Public Speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and enjoys constructing scale models.",
       links: [
         {
           url: "https://twitter.com",

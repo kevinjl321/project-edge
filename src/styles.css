@@ -6,23 +6,6 @@
 
 @tailwind utilities;
 
-.ln{
-    color: transparent;
-}
-
-.tw{
-    --s: #3ef0de;
-}
-
-.tv{
-    --r: #469cff;
-    --i: var(--r),var(--s,rgba(69, 142, 224, 0));
-}
-
-.tl{
-    background-image: -webkit-linear-gradient(90deg,var(--i));
-}
-
-.w{
-    -webkit-background-clip: text;
+.text-color{
+    color: #38b2ac
 }
