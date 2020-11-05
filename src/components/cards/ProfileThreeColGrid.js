@@ -8,6 +8,7 @@ import {SectionDescription} from "components/misc/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import { ReactComponent as InstagramIcon } from "images/ig.svg"
 
 import Dowson from "images/Dowson.jpeg";
 import Marcus from "images/Marcus.jpg";
@@ -71,7 +72,7 @@ export default ({
       links: [
         {
           url: "https://twitter.com",
-          icon: TwitterIcon,
+          icon: InstagramIcon,
         },
         {
           url: "https://linkedin.com",
@@ -87,7 +88,7 @@ export default ({
       imageSrc: Kevin,
       position: "Co-founder, CTO",
       name: "Kevin Lan",
-      content: "Kevin is a STEM and Computer Science tutor who has developed numerous websites. Outside of Edge, he runs the Computing Club and also enjoys working on projects and participating in programming competitions. ",
+      content: "Kevin is a STEM and Computer Science tutor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
       links: [
         {
           url: "https://twitter.com",
@@ -207,7 +208,7 @@ export default ({
       imageSrc: Corey,
       position: "Co-founder, Educator",
       name: "Corey Sy",
-      content: "Corey is a STEM and music theory tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he likes to work with electronics and hang out with friends.",
+      content: "Corey is a STEM and music theory tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he enjoys working with all things electronics.",
       links: [
         {
           url: "https://twitter.com",
@@ -283,6 +284,7 @@ export default ({
                 <Content>
                   <p className="content">{card.content}</p>
                 </Content>
+                {/*
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (
                     <a key={linkIndex} className="link" href={link.url}>
@@ -290,6 +292,7 @@ export default ({
                     </a>
                   ))}
                 </CardLinks>
+                  */}
               </CardContent>
             </Card>
           ))}
