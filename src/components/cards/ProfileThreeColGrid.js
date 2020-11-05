@@ -68,7 +68,7 @@ export default ({
       imageSrc: Marcus,
       position: "Co-founder, COO",
       name: "Marcus Chua",
-      content: "Marcus is a Business, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of the robotics team and President of Red Cross club.",
+      content: "Marcus is a Business, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
       links: [
         {
           url: "https://twitter.com",
@@ -108,7 +108,7 @@ export default ({
       imageSrc: Dowson,
       position: "Co-founder, CAO",
       name: "Dowson Yang",
-      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with the Robotics Team, Math Team, and Varsity Golf Team.",
+      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
       links: [
         {
           url: "https://twitter.com",
@@ -128,7 +128,7 @@ export default ({
       imageSrc: Randy,
       position: "Co-founder, Educator",
       name: "Randy Cai",
-      content: "Randy is a Biology, Chemistry, and Math tutor who enjoys learning about all things STEM. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
+      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -148,7 +148,7 @@ export default ({
       imageSrc: Mark,
       position: "Co-founder, Educator",
       name: "Mark MacDermott",
-      content: "Mark is an English, Writing, Music, and Speech & Debate tutor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team as well as pursuing music production through self study and exploration.",
+      content: "Mark is a music, humanities, and debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
       links: [
         {
           url: "https://twitter.com",
@@ -168,7 +168,7 @@ export default ({
       imageSrc: Srini,
       position: "Co-founder, Educator",
       name: "Srinivasan Arumugham",
-      content: "Srinivasan is a STEM and Computer Science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
+      content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
       links: [
         {
           url: "https://twitter.com",
@@ -208,7 +208,7 @@ export default ({
       imageSrc: Corey,
       position: "Co-founder, Educator",
       name: "Corey Sy",
-      content: "Corey is a STEM and music theory tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he enjoys working with all things electronics.",
+      content: "Corey is a STEM and music tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -228,7 +228,7 @@ export default ({
       imageSrc: Lucas,
       position: "Co-founder, Educator",
       name: "Lucas Chen",
-      content: "Lucas is a Public Speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and enjoys constructing scale models.",
+      content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
       links: [
         {
           url: "https://twitter.com",
