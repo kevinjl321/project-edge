@@ -20,6 +20,8 @@ import Philip from "images/Philip.jpg"
 import Lawrence from "images/Lawrence.jpg"
 import Corey from "images/Corey.jpg"
 import Lucas from "images/Lucas.jpg"
+import Tavis from "images/Tavis.png"
+import Yuxiang from "images/Yuxiang.jpg"
 
 import { m } from "framer-motion";
 
@@ -264,6 +266,47 @@ export default ({
         },
       ],
     },
+    {
+      imageSrc: Tavis,
+      position: "Educator",
+      name: "Tavis Chen",
+      content: "Tavis is a STEM tutor that has had experience in multiple fields of chemistry research. Outside of Edge, he serves as the mechanical captain in SMHS's robotics team and captain of the cross country and track team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Yuxiang,
+      position: "Educator",
+      name: "Yuxiang Zhang",
+      content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
   ]
 }) => {
   return (
