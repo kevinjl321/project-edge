@@ -5,7 +5,7 @@ import Team from "components/cards/ProfileThreeColGrid"
 import AnimationRevealPage from "helpers/AnimationRevealPage"
 
 function OurTeam() {
-    document.title = "our team | edge learning"
+    document.title = "Our Team | Edge Learning"
     return (
       <AnimationRevealPage disabled>
         <Header />
