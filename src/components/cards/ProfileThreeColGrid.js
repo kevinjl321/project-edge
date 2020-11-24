@@ -15,13 +15,14 @@ import Marcus from "images/Marcus.jpg";
 import Randy from "images/Randy.jpg";
 import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
-import Srini from "images/Srinivasan.png"
+import Srini from "images/Srini.jpg"
 import Philip from "images/Philip.jpg"
 import Lawrence from "images/Lawrence.jpg"
 import Corey from "images/Corey.jpg"
 import Lucas from "images/Lucas.jpg"
 import Tavis from "images/Tavis.png"
 import Yuxiang from "images/Yuxiang.jpg"
+import Ben from "images/Ben.png"
 
 import { m } from "framer-motion";
 
@@ -291,6 +292,26 @@ export default ({
       position: "Educator",
       name: "Yuxiang Zhang",
       content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Ben,
+      position: "Educator",
+      name: "Ben Guo",
+      content: "Ben is a Computer Science tutor that has had experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
