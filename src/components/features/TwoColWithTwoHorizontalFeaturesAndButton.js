@@ -67,7 +67,7 @@ export default ({
       Our <span tw="text-primary-500">Story</span>
     </>
   ),
-  description = "Edge was founded as a response to the rise of for-profit tutoring. Tutoring companies now charge exorbitant rates, preying upon parents and students alike who simply desire a little bit of extra help or instruction. We believe that high quality, personalized tutoring should be available to all regardless of socioeconomic status or ability to pay. That's why Edge Tutors offers its services free of charge in order to help bridge the gap and better our communities.",
+  description = "Edge was founded as a response to the rise of for-profit tutoring. Tutoring companies now charge exorbitant rates, preying upon parents and students alike who simply desire a little bit of extra help or instruction. We believe that high quality, personalized tutoring should be available to all regardless of socioeconomic status or ability to pay. That's why Edge offers its services free of charge in order to help bridge the gap and better our communities.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
