@@ -9,7 +9,7 @@ import AboutInfo from "components/cards/ThreeColContactDetails"
 import Testimonial from "components/testimonials/TwoColumnWithImage"
 
 function About() {
-    document.title = "About | Edge Learning";
+    document.title = "About | Project Edge";
     return (
       <AnimationRevealPage disabled>
         <Header />

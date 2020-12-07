@@ -11,7 +11,12 @@ class Calendly extends Component {
     render(){
         return (
         <div>
-            <InlineWidget url="https://calendly.com/project-edge" />
+            <InlineWidget
+                styles = {{
+                    height: '90vh'
+                }}
+                url="https://calendly.com/project-edge" 
+            />
         </div>
         );
     }

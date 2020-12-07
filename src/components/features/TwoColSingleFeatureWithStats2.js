@@ -44,7 +44,7 @@ export default ({
       Mission Statement
     </>
   ),
-  description = "At Edge Learning, we believe education and personalized help is a right, not a privilege. Through our services, we have helped several students overcome their academic hardships as well as soar to new heights. ",
+  description = "At Edge, we believe education and personalized help is a right, not a privilege. Through our services, we have helped several students overcome their academic hardships as well as soar to new heights. ",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "",
   imageSrc = StatsIllustrationSrc,

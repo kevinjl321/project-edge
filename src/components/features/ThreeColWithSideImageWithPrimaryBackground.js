@@ -54,9 +54,9 @@ const Card = styled.div`
 
 export default ({
   cards = null,
-  heading = "What is Edge Learning?",
+  heading = "What is Project Edge?",
   subheading = "",
-  description = "Edge was founded as a response to the rise of for-profit tutoring. We believe all students should have the right to free education and help when they need it."
+  description = "Edge is a student-run educational initiative helping students succeed in all academic respects, free of cost."
 }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:

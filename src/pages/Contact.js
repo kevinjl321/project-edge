@@ -7,7 +7,7 @@ import Footer from "components/footers/MiniCenteredFooter"
 import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm"
 
 function ContactUs() {
-    document.title = "Contact Us | Edge Learning"
+    document.title = "Contact Us | Project Edge"
     return (
       <AnimationRevealPage disabled>
         <Header />

@@ -36,7 +36,7 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>edge learning</LogoText>
+            <LogoText>project edge</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="/">Home</Link>
@@ -48,7 +48,7 @@ export default () => {
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://instagram.com/edge_learning">
+            <SocialLink target = "_blank" href="https://instagram.com/projectedgeofficial">
               <TwitterIcon />
             </SocialLink>
             <SocialLink href="https://youtube.com">
@@ -56,7 +56,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; copyright 2020, edge learning | designed and developed by kevin lan
+            &copy; 2020 project edge | designed and developed by kevin lan
           </CopyrightText>
         </Row>
       </Content>
