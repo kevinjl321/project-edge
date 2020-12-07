@@ -38,7 +38,7 @@ export default ({
   primaryButtonText="Learn More",
   primaryButtonUrl="/about",
   secondaryButtonText = "Sign Up",
-  secondaryButtonUrl = "https://docs.google.com/forms/d/e/1FAIpQLScllcWv5IQ8ftIH7-V5dnsqLDk_X2EE_SzL7yQIdhiAdubRYw/viewform?usp=send_form",
+  secondaryButtonUrl = "/sign-up",
   imageSrc=DesignIllustration,
   imageCss=null,
   imageDecoratorBlob = false,
@@ -54,7 +54,7 @@ export default ({
             <Paragraph>{description}</Paragraph>
             <Actions>
               <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              <SecondaryButton as="a" target = "_blank" href={secondaryButtonUrl}>{secondaryButtonText}</SecondaryButton>
+              <SecondaryButton as="a" href={secondaryButtonUrl}>{secondaryButtonText}</SecondaryButton>
             </Actions>
           </LeftColumn>
           <RightColumn>

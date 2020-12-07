@@ -5,6 +5,7 @@ import Home from "pages/Home"
 import AboutUs from "pages/About";
 import OurTeam from "pages/OurTeam"
 import ContactUs from "pages/Contact";
+import SignUp from "pages/SignUp"
 import{ BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component{
@@ -31,6 +32,11 @@ class App extends Component{
               <Route path = "/contact" render = {props => (
                 <React.Fragment>
                   <ContactUs />
+                </React.Fragment>
+              )} />
+              <Route path = "/sign-up" render = {props => (
+                <React.Fragment>
+                  <SignUp />
                 </React.Fragment>
               )} />
             </div>

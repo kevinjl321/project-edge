@@ -56,7 +56,7 @@ export default () => {
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink target = "_blank"href="https://forms.gle/U1Udb5DsHZz5nKAW9">
+      <PrimaryLink href="/sign-up">
         SIGN UP
       </PrimaryLink>
     </NavLinks>
