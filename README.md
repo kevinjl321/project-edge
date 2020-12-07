@@ -1,5 +1,4 @@
 ## Available Scripts
-In this project, you can run:
 
 ### `yarn start`
 
