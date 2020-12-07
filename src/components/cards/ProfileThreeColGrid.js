@@ -26,11 +26,11 @@ import Ben from "images/Ben.png"
 
 import { m } from "framer-motion";
 
-const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
+const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
-const Subheading = tw(SubheadingBase)`text-center mb-3`
-const Description = tw(SectionDescription)`mx-auto text-center`
+const Subheading = tw(SubheadingBase)`text-center mb-3 text-blue-500`
+const Description = tw(SectionDescription)`mx-auto text-center text-gray-700`
 const Content = tw(SectionDescription)`mx-auto text-center`
 
 const Cards = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`
@@ -42,13 +42,13 @@ const CardImage = styled.div`
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
   .position {
-    ${tw`uppercase font-bold tracking-widest text-xs text-primary-500`}
+    ${tw`uppercase font-bold tracking-widest text-xs text-blue-700`}
   }
   .name {
-    ${tw`mt-1 text-xl font-medium text-gray-100`}
+    ${tw`mt-1 text-xl font-medium text-gray-700`}
   }
   .content{
-    ${tw`mt-1 mx-5 text-base font-medium text-gray-500`}
+    ${tw`mt-1 mx-5 text-base font-medium text-gray-600`}
   }
 `
 
@@ -108,88 +108,8 @@ export default ({
       ],
     },
     {
-      imageSrc: Dowson,
-      position: "Co-founder, CAO",
-      name: "Dowson Yang",
-      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Randy,
-      position: "Co-founder, Educator",
-      name: "Randy Cai",
-      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Mark,
-      position: "Co-founder, Educator",
-      name: "Mark MacDermott",
-      content: "Mark is a music, humanities, and debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Srini,
-      position: "Co-founder, Educator",
-      name: "Srinivasan Arumugham",
-      content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: Lawrence,
-      position: "Co-founder, Educator",
+      position: "Co-founder, CIO",
       name: "Lawrence Chao",
       content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
       links: [
@@ -209,7 +129,7 @@ export default ({
     },
     {
       imageSrc: Corey,
-      position: "Co-founder, Educator",
+      position: "Co-founder, CFO",
       name: "Corey Sy",
       content: "Corey is a STEM and music tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
       links: [
@@ -229,9 +149,89 @@ export default ({
     },
     {
       imageSrc: Lucas,
-      position: "Co-founder, Educator",
+      position: "Co-founder, CMO",
       name: "Lucas Chen",
       content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Dowson,
+      position: "Co-founder, Director of Mathematics",
+      name: "Dowson Yang",
+      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Randy,
+      position: "Co-founder, Director of Biology",
+      name: "Randy Cai",
+      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Mark,
+      position: "Co-founder, Director of Humanities",
+      name: "Mark MacDermott",
+      content: "Mark is a music, humanities, and debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Srini,
+      position: "Co-founder, Director of Chemistry",
+      name: "Srinivasan Arumugham",
+      content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
       links: [
         {
           url: "https://twitter.com",
