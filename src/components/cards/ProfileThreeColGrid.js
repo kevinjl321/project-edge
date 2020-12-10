@@ -23,8 +23,7 @@ import Lucas from "images/Lucas.jpg"
 import Tavis from "images/Tavis.png"
 import Yuxiang from "images/Yuxiang.jpg"
 import Ben from "images/Ben.png"
-
-import { m } from "framer-motion";
+import Jeffrey from "images/Jeffrey.jpg"
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
 const HeadingContainer = tw.div``
@@ -169,7 +168,7 @@ export default ({
     },
     {
       imageSrc: Dowson,
-      position: "Co-founder, Director of Mathematics",
+      position: "Co-founder, Dir. of Mathematics",
       name: "Dowson Yang",
       content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
       links: [
@@ -189,7 +188,7 @@ export default ({
     },
     {
       imageSrc: Randy,
-      position: "Co-founder, Director of Biology",
+      position: "Co-founder, Dir. of Biological Sciences",
       name: "Randy Cai",
       content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
@@ -209,7 +208,7 @@ export default ({
     },
     {
       imageSrc: Mark,
-      position: "Co-founder, Director of Humanities",
+      position: "Co-founder, Dir. of Humanities",
       name: "Mark MacDermott",
       content: "Mark is a music, humanities, and debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
       links: [
@@ -229,7 +228,7 @@ export default ({
     },
     {
       imageSrc: Srini,
-      position: "Co-founder, Director of Chemistry",
+      position: "Co-founder, Dir. of Chemistry",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
       links: [
@@ -311,7 +310,27 @@ export default ({
       imageSrc: Ben,
       position: "Educator",
       name: "Ben Guo",
-      content: "Ben is a Computer Science tutor that has had experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
+      content: "Ben is a Computer Science tutor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Jeffrey,
+      position: "Educator",
+      name: "Jeffrey Deng",
+      content: "Jeffrey is a Computer Science tutor and hackathon enthusiast who has experience in many fields of computer science. Outside of Edge, he participates in robotics & is the president of SMHS's math team.",
       links: [
         {
           url: "https://twitter.com",
