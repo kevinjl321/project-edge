@@ -69,46 +69,6 @@ export default ({
   description = "Each of our instructors have extensive experience in their fields and are eager to teach and assist their peers, free of cost during this difficult time.",
   cards = [
     {
-      imageSrc: Addison,
-      position: "Founder, CEO",
-      name: "Addison Rae",
-      content: "Addison founded Edge with the objective of trying to help more people achieve academic success and reach their own life goals. She tutors STEM courses as well as Speech and Debate and English.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: TyLee,
-      position: "Co-founder, COOCHIE",
-      name: "Ty Lee",
-      content: "Ty Lee co-founded Edge with the objective of trying to help more people achieve academic success and reach their own life goals. She tutors STEM courses as well as Speech and Debate and English.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: Marcus,
       position: "Co-founder, COO",
       name: "Marcus Chua",
