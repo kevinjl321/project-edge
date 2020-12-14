@@ -190,7 +190,7 @@ export default ({
     },
     {
       imageSrc: Randy,
-      position: "Co-founder, Dir. of Biology",
+      position: "Co-founder, Dir. of Life Sciences",
       name: "Randy Cai",
       content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
@@ -230,7 +230,7 @@ export default ({
     },
     {
       imageSrc: Srini,
-      position: "Co-founder, Dir. of Chemistry",
+      position: "Co-founder, Dir. of Physical Sciences",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
       links: [
