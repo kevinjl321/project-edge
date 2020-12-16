@@ -47,7 +47,7 @@ export default ({
       For <span tw = "text-primary-500">Students</span>, by <span tw="text-primary-500">Students.</span>
     </>
   ),
-  description = "Our team is composed of award-winning individuals who have extensive experience in their respective subjects. Our experience is bolstered by a collection of numerous accolades from various academic competitions and societies. We are committed to helping our peers succeed, free of cost of course.",
+  description = "Our team is composed of award-winning individuals who have extensive experience in their respective subjects. Our experience is bolstered by a collection of numerous accolades from various academic competitions and societies. We are committed to helping our peers succeed.",
   primaryButtonText = "Meet our team",
   primaryButtonUrl = "/our-team",
   imageSrc = TeamIllustrationSrc,
