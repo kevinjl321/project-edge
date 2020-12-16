@@ -348,8 +348,28 @@ export default ({
         },
       ],
     },
+    {
+      imageSrc: Matthew,
+      position: "Educator",
+      name: "Matthew Lee",
+      content: "Matthew is a STEM tutor who is interested in the intersection of technology and society. Outside of Edge, he leads San Marino's robotics and math teams.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
   ]
-}) => {
+}) => { 
   return (
     <Container>
       <ContentWithPaddingXl>
