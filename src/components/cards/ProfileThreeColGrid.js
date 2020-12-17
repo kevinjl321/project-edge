@@ -24,8 +24,10 @@ import Tavis from "images/Tavis.png"
 import Yuxiang from "images/Yuxiang.jpg"
 import Ben from "images/Ben.png"
 import Jeffrey from "images/Jeffrey.jpg"
+import Matthew from "images/Matthew.png"
 import TyLee from "images/TyLee.jpg"
 import Addison from "images/AddisonRae.jpg"
+
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
 const HeadingContainer = tw.div``
@@ -348,8 +350,28 @@ export default ({
         },
       ],
     },
+    {
+      imageSrc: Matthew,
+      position: "Educator",
+      name: "Matthew Lee",
+      content: "Matthew is a STEM tutor who is interested in the intersection of technology and society. Outside of Edge, he leads San Marino's robotics and math teams.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
   ]
-}) => {
+}) => { 
   return (
     <Container>
       <ContentWithPaddingXl>
