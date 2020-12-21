@@ -24,8 +24,7 @@ import Tavis from "images/Tavis.png"
 import Yuxiang from "images/Yuxiang.jpg"
 import Ben from "images/Ben.png"
 import Jeffrey from "images/Jeffrey.jpg"
-import TyLee from "images/TyLee.jpg"
-import Addison from "images/AddisonRae.jpg"
+import Megan from "images/Megan.jpg"
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
 const HeadingContainer = tw.div``
@@ -64,9 +63,9 @@ const CardLinks = styled.div`
 `
 
 export default ({
-  heading = "Meet Our Educators!",
+  heading = "Meet Team Edge!",
   subheading = "Our Team",
-  description = "Each of our instructors have extensive experience in their fields and are eager to teach and assist their peers, free of cost during this difficult time.",
+  description = "Each of our staff members have extensive experience in their fields and are eager to teach and assist their peers, free of cost during this difficult time.",
   cards = [
     {
       imageSrc: Marcus,
@@ -109,6 +108,26 @@ export default ({
       ],
     },
     {
+      imageSrc: Megan,
+      position: "Chief Marketing Officer",
+      name: "Megan Linden",
+      content: "Megan is our team’s publicity manager! Outside of Edge, she participates in speech and debate, Girl Scouts, and has run track for 6 years.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: Lawrence,
       position: "Co-founder, CIO",
       name: "Lawrence Chao",
@@ -133,26 +152,6 @@ export default ({
       position: "Co-founder, CFO",
       name: "Corey Sy",
       content: "Corey is a STEM and music tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Lucas,
-      position: "Co-founder, CMO",
-      name: "Lucas Chen",
-      content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
       links: [
         {
           url: "https://twitter.com",
@@ -233,6 +232,26 @@ export default ({
       position: "Co-founder, Dir. of Physical Sciences",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Lucas,
+      position: "Educator",
+      name: "Lucas Chen",
+      content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
       links: [
         {
           url: "https://twitter.com",
