@@ -67,11 +67,11 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet Team Edge!",
   subheading = "Our Team",
-  description = "Each of our staff members have one common goal: to pioneer the freedom of education.",
+  description = "At Edge, all of our staff members share one common goal: to democratize education.",
   cards = [
     {
       imageSrc: Marcus,
-      position: "Co-founder, COO",
+      position: "Chief Operations Officer",
       name: "Marcus Chua",
       content: "Marcus is a Business, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
       links: [
@@ -91,7 +91,7 @@ export default ({
     },
     {
       imageSrc: Kevin,
-      position: "Co-founder, CTO",
+      position: "Chief Technology Officer",
       name: "Kevin Lan",
       content: "Kevin is a STEM and Computer Science tutor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
       links: [
@@ -131,7 +131,7 @@ export default ({
     },
     {
       imageSrc: Lawrence,
-      position: "Co-founder, CIO",
+      position: "Chief Information Officer",
       name: "Lawrence Chao",
       content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
       links: [
@@ -151,7 +151,7 @@ export default ({
     },
     {
       imageSrc: Corey,
-      position: "Co-founder, CFO",
+      position: "Chief Financial Officer",
       name: "Corey Sy",
       content: "Corey is a STEM and music tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
       links: [
@@ -171,7 +171,7 @@ export default ({
     },
     {
       imageSrc: Dowson,
-      position: "Co-founder, Dir. of Mathematics",
+      position: "Director of Mathematics",
       name: "Dowson Yang",
       content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
       links: [
@@ -191,7 +191,7 @@ export default ({
     },
     {
       imageSrc: Randy,
-      position: "Co-founder, Dir. of Life Sciences",
+      position: "Director of Life Sciences",
       name: "Randy Cai",
       content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
       links: [
@@ -211,7 +211,7 @@ export default ({
     },
     {
       imageSrc: Mark,
-      position: "Co-founder, Dir. of Humanities",
+      position: "Director of Humanities",
       name: "Mark MacDermott",
       content: "Mark is a music, humanities, and debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
       links: [
@@ -231,7 +231,7 @@ export default ({
     },
     {
       imageSrc: Srini,
-      position: "Co-founder, Dir. of Physical Sciences",
+      position: "Director of Physical Sciences",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
       links: [
