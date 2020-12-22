@@ -250,90 +250,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Lucas,
+      imageSrc: Matthew,
       position: "Educator",
-      name: "Lucas Chen",
-      content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Philip,
-      position: "Educator",
-      name: "Philip Leung",
-      content: "Philip is a STEM and chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Tavis,
-      position: "Educator",
-      name: "Tavis Chen",
-      content: "Tavis is a STEM tutor that has had experience in multiple fields of chemistry research. Outside of Edge, he serves as the mechanical captain in SMHS's robotics team and captain of the cross country and track team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Yuxiang,
-      position: "Educator",
-      name: "Yuxiang Zhang",
-      content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Ben,
-      position: "Educator",
-      name: "Ben Guo",
-      content: "Ben is a Computer Science tutor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
+      name: "Matthew Lee",
+      content: "Matthew is a STEM tutor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
       links: [
         {
           url: "https://twitter.com",
@@ -370,10 +290,90 @@ export default ({
       ],
     },
     {
-      imageSrc: Matthew,
+      imageSrc: Tavis,
       position: "Educator",
-      name: "Matthew Lee",
-      content: "Matthew is a STEM tutor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
+      name: "Tavis Chen",
+      content: "Tavis is a STEM tutor that has had experience in multiple fields of chemistry research. Outside of Edge, he serves as the mechanical captain in SMHS's robotics team and captain of the cross country and track team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Ben,
+      position: "Educator",
+      name: "Ben Guo",
+      content: "Ben is a Computer Science tutor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Yuxiang,
+      position: "Educator",
+      name: "Yuxiang Zhang",
+      content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Lucas,
+      position: "Educator",
+      name: "Lucas Chen",
+      content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Philip,
+      position: "Educator",
+      name: "Philip Leung",
+      content: "Philip is a STEM and chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
       links: [
         {
           url: "https://twitter.com",
