@@ -54,9 +54,9 @@ const Card = styled.div`
 
 export default ({
   cards = null,
-  heading = "What is Project Edge?",
+  heading = "Who Are We?",
   subheading = "",
-  description = "Edge is a student-run educational initiative helping students succeed in all academic respects, free of cost."
+  description = "Project Edge is a student-run educational initiative helping students succeed in all academic respects, free of cost."
 }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
@@ -70,29 +70,29 @@ export default ({
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "Our services are free of charge meaning you don’t have to worry about transactions.",
+      description: "Our services are free of charge; transaction security will not be needed nor required.",
     },
     { 
       imageSrc: SupportIconImage, 
-      title: "24/7 Support",
-      description: "Our mentors are virtually always on call; just shoot us a text and we'll be there!",
+      title: "Fully Online",
+      description: "Learn and discuss material without having to leave the comfort and safety of your home.",
     },
     { 
       imageSrc: CustomizeIconImage, 
       title: "Customizable",
-      description: "Our learning services cater specifically to your needs; not anyone else's." },
+      description: "Our many instructors can accommodate and assist you with any need; just ask! " },
     { 
       imageSrc: ReliableIconImage, 
-      title: "Proactive",
-      description: "Give your student an edge in their school classes as well as academic competitions." },
+      title: "Interactive",
+      description: "We believe learning is best done actively; our instructors emphasize interaction and conversation." },
     { 
       imageSrc: FastIconImage, 
       title: "Fast",
-      description: "Get help fast and when you need it. Results will come even faster." },
+      description: "Schedule each instructional session with just a few clicks using our Calendly." },
     { 
       imageSrc: SimpleIconImage, 
-      title: "Easy",
-      description: "Scheduling a class is as easy as filling out a form. We'll make sure to get back to you within one business day." }
+      title: "Community",
+      description: "We aim to build a large community of students and teachers who are committed to improving." }
   ];
 
   if (!cards) cards = defaultCards;

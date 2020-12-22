@@ -4,8 +4,8 @@ import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
 import logo from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { ReactComponent as InstagramIcon } from "../../images/Instagram.svg";
+import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
@@ -45,14 +45,14 @@ export default () => {
             <Link href="/contact">Contact Us</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink target = "_blank" href="https://www.facebook.com/projectedgeofficial">
               <FacebookIcon />
             </SocialLink>
             <SocialLink target = "_blank" href="https://instagram.com/projectedgeofficial">
-              <TwitterIcon />
+              <InstagramIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
+            <SocialLink target = "_blank" href="https://www.linkedin.com/company/project-edge-learning">
+              <LinkedinIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>

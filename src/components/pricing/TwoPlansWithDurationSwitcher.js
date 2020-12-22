@@ -72,7 +72,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "Pricing",
   heading = "Flexible Plans.",
-  description = "That's right. All of our classes are free of charge and catered to your every need. Why? Because we believe in the freedom of education.",
+  description = "That's right. All of our classes are free of charge and catered to your every need. Why? Because we believe in the freedom of education.", 
   plans = null,
   primaryButtonText = "Sign Up",
   planDurations = [

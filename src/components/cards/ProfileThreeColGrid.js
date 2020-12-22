@@ -67,7 +67,7 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet Team Edge!",
   subheading = "Our Team",
-  description = "Each of our staff members have extensive experience in their fields and are eager to teach and assist their peers, free of cost during this difficult time.",
+  description = "Each of our staff members have one common goal: to pioneer the freedom of education.",
   cards = [
     {
       imageSrc: Marcus,
@@ -113,7 +113,7 @@ export default ({
       imageSrc: Megan,
       position: "Chief Marketing Officer",
       name: "Megan Linden",
-      content: "Megan is our team’s publicity manager! Outside of Edge, she participates in speech and debate, Girl Scouts, and has run track for 6 years.",
+      content: "Megan is our CMO; she spearheads our marketing and media departments. Outside of Edge, she competes in speech and debate, is an active Girl Scout, and runs for her school's varsity track team.",
       links: [
         {
           url: "https://twitter.com",
@@ -373,7 +373,7 @@ export default ({
       imageSrc: Matthew,
       position: "Educator",
       name: "Matthew Lee",
-      content: "Matthew is a STEM tutor who is interested in the intersection of technology and society. Outside of Edge, he leads San Marino's robotics and math teams.",
+      content: "Matthew is a STEM tutor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
       links: [
         {
           url: "https://twitter.com",
