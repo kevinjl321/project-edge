@@ -67,7 +67,7 @@ export default ({
       Our <span tw="text-primary-500">Story</span>
     </>
   ),
-  description = "Edge was founded in the Fall of 2020 as a response to the COVID-19 pandemic as well as the proliferation of for-profit tutoring. The demand for tutoring has never been higher as many students struggle to learn effectively while adjusting to online schooling and facing personal issues. However, tutoring companies now charge exorbitant rates, preying upon parents and students alike who simply desire a little bit of extra help or instruction. A \"gap\" has arisen between the educational needs of many and their ability to satisfy them. Edge was started to realize our vision of high quality, personalized tutoring being available to all free of cost. Through the power of education we seek to better our communities, help our peers and bridge the gap.",
+  description = "Project Edge was founded in the Fall of 2020 as a response to the COVID-19 pandemic as well as the proliferation of for-profit tutoring. The demand for tutoring has never been higher as many students struggle to learn effectively while adjusting to online schooling as well facing personal issues. Unfortunately, modern tutoring companies charge exorbitant rates, preying upon parents and students alike. A \"gap\" has arisen between the educational needs of many and their ability to meet them. Project Edge was established to realize our vision of high quality, personalized tutoring being available to all, free of cost. Through the power of education, we seek to better our communities, help our peers, and bridge the gap.",
   primaryButtonText = "",
   primaryButtonUrl = "",
   imageSrc = TeamIllustrationSrc,
