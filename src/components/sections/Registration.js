@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro";
-import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import { SectionDescription } from "components/misc/Typography.js";
-import Calendly from "components/Calendly"
+import { SectionHeading, Subheading as SubheadingBase } from "components/base/Headings.js";
+import { SectionDescription } from "components/base/Typography.js";
+import Calendly from "components/utils/Calendly"
 
 
 const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;

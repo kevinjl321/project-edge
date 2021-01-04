@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Header from "components/headers/light"
-import Footer from "components/footers/MiniCenteredFooter"
-import Team from "components/cards/ProfileThreeColGrid"
+import Header from "components/essentials/Header"
+import Footer from "components/essentials/Footer"
+import Team from "components/sections/Team"
 import AnimationRevealPage from "helpers/AnimationRevealPage"
 
 function OurTeam() {

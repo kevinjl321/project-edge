@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Hero from "components/hero/TwoColumnWithVideo"
-import Footer from "components/footers/MiniCenteredFooter"
-import Stats from "components/features/TwoColSingleFeatureWithStats2";
-import About from "components/features/ThreeColWithSideImageWithPrimaryBackground"
-import People from "components/features/TwoColWithButton"
-import Pricing from "components/pricing/TwoPlansWithDurationSwitcher"
+import Hero from "components/sections/Hero"
+import Footer from "components/essentials/Footer"
+import Stats from "components/sections/Mission";
+import About from "components/sections/Descrip"
+import People from "components/sections/Creds"
+import Pricing from "components/sections/Pricing"
 import AnimationRevealPage from "helpers/AnimationRevealPage"
 
 function Home() {

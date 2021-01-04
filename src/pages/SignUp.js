@@ -1,7 +1,7 @@
 import React from "react"
-import Header from "components/headers/light"
-import SignUpBody from "components/cards/SignUpBody"
-import Footer from "components/footers/MiniCenteredFooter"
+import Header from "components/essentials/Header"
+import SignUpBody from "components/sections/Registration"
+import Footer from "components/essentials/Footer"
 import AnimationRevealPage from "helpers/AnimationRevealPage"
 
 function SignUp() {

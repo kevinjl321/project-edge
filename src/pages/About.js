@@ -2,11 +2,10 @@ import React from "react"
 import "styles.css"
 import "tailwindcss/dist/base.css"
 import AnimationRevealPage from "helpers/AnimationRevealPage"
-import Header from "components/headers/light"
-import Footer from "components/footers/MiniCenteredFooter"
-import Story from "components/features/TwoColWithTwoHorizontalFeaturesAndButton"
-import AboutInfo from "components/cards/ThreeColContactDetails"
-import Testimonial from "components/testimonials/TwoColumnWithImage"
+import Header from "components/essentials/Header"
+import Footer from "components/essentials/Footer"
+import Story from "components/sections/Origin"
+import AboutInfo from "components/sections/Courses"
 
 function About() {
     document.title = "About | Project Edge";
