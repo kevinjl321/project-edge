@@ -350,26 +350,6 @@ export default ({
       ],
     },
     {
-      imageSrc: Lucas,
-      position: "Educator",
-      name: "Lucas Chen",
-      content: "Lucas is a public speaking tutor with over five years of teaching experience. Outside of Edge, he serves as the captain of the SMHS Limited Preparation Speech Team and is a nationally ranked fencer.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: Philip,
       position: "Educator",
       name: "Philip Leung",
