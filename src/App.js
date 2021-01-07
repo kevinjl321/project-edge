@@ -13,7 +13,7 @@ class App extends Component{
     return (
         <Router>
           <div className = "App">
-            <div className = "container">
+             <div className = "container">
               <Route exact path = "/" render = {props => (
                 <React.Fragment>
                   <Home />
