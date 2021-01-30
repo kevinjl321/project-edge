@@ -26,6 +26,7 @@ import Ben from "images/Ben.png"
 import Jeffrey from "images/Jeffrey.jpg"
 import Megan from "images/Megan.jpg"
 import Matthew from "images/Matthew.png"
+import Jeremy from "images/Jeremy.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -254,6 +255,26 @@ export default ({
       position: "Educator",
       name: "Matthew Lee",
       content: "Matthew is a STEM tutor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Jeremy,
+      position: "Educator",
+      name: "Jeremy Yoo",
+      content: "Jeremy is a math and computer science tutor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
       links: [
         {
           url: "https://twitter.com",
