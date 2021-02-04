@@ -2,11 +2,10 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/base/Layouts.js"
-import logo from "../../images/logo.svg";
-import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
-import { ReactComponent as InstagramIcon } from "../../images/instagram-icon.svg";
-import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
+import logo from "../../images/logo.png";
 
+import {FaFacebookF, FaLinkedin} from "react-icons/fa";
+import {SiInstagram} from "react-icons/si";
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -46,13 +45,13 @@ export default () => {
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink target = "_blank" href="https://www.facebook.com/projectedgeofficial">
-              <FacebookIcon />
+              <FaFacebookF />
             </SocialLink>
             <SocialLink target = "_blank" href="https://instagram.com/projectedgeofficial">
-              <InstagramIcon />
+              <SiInstagram />
             </SocialLink>
             <SocialLink target = "_blank" href="https://www.linkedin.com/company/project-edge-learning">
-              <LinkedinIcon />
+              <FaLinkedin />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
