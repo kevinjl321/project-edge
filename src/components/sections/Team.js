@@ -19,7 +19,6 @@ import Srini from "images/Srini.jpg"
 import Philip from "images/Philip.jpg"
 import Lawrence from "images/Lawrence.jpg"
 import Corey from "images/Corey.jpg"
-import Lucas from "images/Lucas.jpg"
 import Tavis from "images/Tavis.png"
 import Yuxiang from "images/Yuxiang.jpg"
 import Ben from "images/Ben.png"
@@ -27,6 +26,7 @@ import Jeffrey from "images/Jeffrey.jpg"
 import Megan from "images/Megan.jpg"
 import Matthew from "images/Matthew.png"
 import Jeremy from "images/Jeremy.jpg"
+import Cassie from "images/Cassie.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -271,10 +271,50 @@ export default ({
       ],
     },
     {
+      imageSrc: Yuxiang,
+      position: "Educator",
+      name: "Yuxiang Zhang",
+      content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: Jeremy,
       position: "Educator",
       name: "Jeremy Yoo",
       content: "Jeremy is a math and computer science tutor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Cassie,
+      position: "Educator",
+      name: "Cassandra Liong",
+      content: "Cassandra is a Science, English, and Math tutor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
       links: [
         {
           url: "https://twitter.com",
@@ -335,26 +375,6 @@ export default ({
       position: "Educator",
       name: "Ben Guo",
       content: "Ben is a Computer Science tutor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Yuxiang,
-      position: "Educator",
-      name: "Yuxiang Zhang",
-      content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
       links: [
         {
           url: "https://twitter.com",
