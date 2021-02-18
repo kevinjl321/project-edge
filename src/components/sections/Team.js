@@ -271,6 +271,26 @@ export default ({
       ],
     },
     {
+      imageSrc: Cassie,
+      position: "Educator",
+      name: "Cassandra Liong",
+      content: "Cassandra is a Science, English, and Math tutor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: Yuxiang,
       position: "Educator",
       name: "Yuxiang Zhang",
@@ -295,26 +315,6 @@ export default ({
       position: "Educator",
       name: "Jeremy Yoo",
       content: "Jeremy is a math and computer science tutor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Cassie,
-      position: "Educator",
-      name: "Cassandra Liong",
-      content: "Cassandra is a Science, English, and Math tutor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
       links: [
         {
           url: "https://twitter.com",
