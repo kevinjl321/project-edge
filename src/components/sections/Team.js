@@ -272,10 +272,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Cassie,
+      imageSrc: Amanda,
       position: "Educator",
-      name: "Cassandra Liong",
-      content: "Cassandra is a Science, English, and Math tutor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
+      name: "Amanda Lopez",
+      content: "Amanda is a chemistry, English, and public speaking tutor with extensive experience in tutoring other students. Outside of Edge, she serves as Marketing VP for SMHS’s robotics team and competes in speech and debate.",
       links: [
         {
           url: "https://twitter.com",
@@ -292,10 +292,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Amanda,
+      imageSrc: Cassie,
       position: "Educator",
-      name: "Amanda Lopez",
-      content: "Amanda is a chemistry, English, and public speaking tutor with extensive experience in tutoring other students. Outside of Edge, she serves as Marketing VP for SMHS’s robotics team and competes in speech and debate.",
+      name: "Cassandra Liong",
+      content: "Cassandra is a Science, English, and Math tutor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
       links: [
         {
           url: "https://twitter.com",
