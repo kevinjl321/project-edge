@@ -41,6 +41,7 @@ export default () => {
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/our-team">Our Team</Link>
+            <Link href="/blog">Blog</Link>
             <Link href="/contact">Contact Us</Link>
           </LinksContainer>
           <SocialLinksContainer>
