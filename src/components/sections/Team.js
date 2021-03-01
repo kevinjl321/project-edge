@@ -29,6 +29,7 @@ import Jeremy from "images/Jeremy.jpg"
 import Cassie from "images/Cassie.jpg"
 import Amanda from "images/Amanda.png"
 import Jacob from "images/Jacob.jpg"
+import Nikkie from "images/Nikkie.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -337,6 +338,26 @@ export default ({
       position: "Educator",
       name: "Jeremy Yoo",
       content: "Jeremy is a math and computer science tutor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Nikkie,
+      position: "Educator",
+      name: "Nicole Tan",
+      content: "Nicole is a Math, English, and Physics tutor who loves to work with younger students. Outside of Edge, she enjoys competing as a member of her school's tennis team, playing her guitar, and cooking for friends and family.",
       links: [
         {
           url: "https://twitter.com",
