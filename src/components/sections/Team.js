@@ -30,6 +30,7 @@ import Cassie from "images/Cassie.jpg"
 import Amanda from "images/Amanda.png"
 import Jacob from "images/Jacob.jpg"
 import Nikkie from "images/Nikkie.jpg"
+import Marlene from "images/Marlene.png"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -77,7 +78,7 @@ export default ({
       imageSrc: Marcus,
       position: "Chief Operations Officer",
       name: "Marcus Chua",
-      content: "Marcus is a Business, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
+      content: "Marcus is a Math, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
       links: [
         {
           url: "https://twitter.com",
@@ -197,7 +198,7 @@ export default ({
       imageSrc: Randy,
       position: "Director of Life Sciences",
       name: "Randy Cai",
-      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a 2020 USA Biology Olympiad Semifinalist.",
+      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two time 2020 USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -237,7 +238,7 @@ export default ({
       imageSrc: Srini,
       position: "Director of Physical Sciences",
       name: "Srinivasan Arumugham",
-      content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs the Computing Club and participates in numerous STEM Olympiads.",
+      content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs a Computing Club, participates in various STEM Olympiads, and is an AIME qualifier.",
       links: [
         {
           url: "https://twitter.com",
@@ -318,6 +319,26 @@ export default ({
       position: "Educator",
       name: "Yuxiang Zhang",
       content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Marlene,
+      position: "Educator",
+      name: "Marlene Ketelaar",
+      content: "Marlene is a Biology, Chemistry, and Math tutor and has some experience in the field of chemistry research. Outside of Edge, she plays for the school’s Varsity Volleyball team and is involved in Girls Who Code.",
       links: [
         {
           url: "https://twitter.com",
