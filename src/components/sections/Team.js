@@ -198,7 +198,7 @@ export default ({
       imageSrc: Randy,
       position: "Director of Life Sciences",
       name: "Randy Cai",
-      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two time 2020 USA Biology Olympiad Semifinalist.",
+      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
