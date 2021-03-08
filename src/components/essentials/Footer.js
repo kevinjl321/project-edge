@@ -43,6 +43,7 @@ export default () => {
             <Link href="/our-team">Our Team</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/contact">Contact Us</Link>
+            <Link href="https://docs.google.com/forms/d/1UhsrBAIGHhkUx9sy8-nQ374zae-4EJIdhyN1mis-B9g/edit?usp=sharing" target="_blank">Join Us</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink target = "_blank" href="https://www.facebook.com/projectedgeofficial">

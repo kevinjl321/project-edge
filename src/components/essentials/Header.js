@@ -63,6 +63,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/our-team">Our Team</NavLink>
       <NavLink href="/blog">Blog</NavLink>
       <NavLink href="/contact">Contact Us</NavLink>
+      <NavLink href="https://docs.google.com/forms/d/1UhsrBAIGHhkUx9sy8-nQ374zae-4EJIdhyN1mis-B9g/edit?usp=sharing" target="_blank">Join Us</NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href="/sign-up">SIGN UP</PrimaryLink>
     </NavLinks>
   ];
