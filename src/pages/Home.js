@@ -6,6 +6,7 @@ import About from "components/sections/Description"
 import People from "components/sections/Ethos"
 import Pricing from "components/sections/Pricing"
 import AnimationRevealPage from "helpers/AnimationRevealPage"
+import Sponsors from "components/sections/Sponsors"
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
         <About />
         <Stats />
         <People />
+        <Sponsors />
         <Pricing />
         <Footer />
       </AnimationRevealPage>
