@@ -256,7 +256,7 @@ export default ({
     },
     {
       imageSrc: Jacob,
-      position: "Vice President of Community Collaborations",
+      position: "Vice President of Outreach",
       name: "Jacob Brassard",
       content: "Jacob is a History and Social Studies tutor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
       links: [
