@@ -255,6 +255,26 @@ export default ({
       ],
     },
     {
+      imageSrc: Jacob,
+      position: "Vice President of Community Collaborations",
+      name: "Jacob Brassard",
+      content: "Jacob is a History and Social Studies tutor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: Matthew,
       position: "Educator",
       name: "Matthew Lee",
@@ -379,26 +399,6 @@ export default ({
       position: "Educator",
       name: "Nicole Tan",
       content: "Nicole is a Math, English, and Physics tutor who loves to work with younger students. Outside of Edge, she enjoys competing as a member of her school's tennis team, playing her guitar, and cooking for friends and family.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Jacob,
-      position: "Educator",
-      name: "Jacob Brassard",
-      content: "Jacob is a History and Social Studies tutor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
       links: [
         {
           url: "https://twitter.com",
