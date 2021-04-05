@@ -31,6 +31,7 @@ import Amanda from "images/Amanda.png"
 import Jacob from "images/Jacob.jpg"
 import Nikkie from "images/Nikkie.jpg"
 import Marlene from "images/Marlene.png"
+import Aidan from "images/Aidan.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -479,6 +480,26 @@ export default ({
       position: "Educator",
       name: "Philip Leung",
       content: "Philip is a STEM and chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Aidan,
+      position: "Educator",
+      name: "Aidan Ye",
+      content: "Aidan is a math and biology tutor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and is part of SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
