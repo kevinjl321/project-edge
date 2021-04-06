@@ -499,7 +499,7 @@ export default ({
       imageSrc: Aidan,
       position: "Educator",
       name: "Aidan Ye",
-      content: "Aidan is a math and biology tutor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and is part of SMHS's varsity badminton team.",
+      content: "Aidan is a math and biology tutor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
