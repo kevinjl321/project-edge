@@ -32,6 +32,7 @@ import Jacob from "images/Jacob.jpg"
 import Nikkie from "images/Nikkie.jpg"
 import Marlene from "images/Marlene.png"
 import Aidan from "images/Aidan.jpg"
+import Shrish from "images/Shrish.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -500,6 +501,26 @@ export default ({
       position: "Educator",
       name: "Aidan Ye",
       content: "Aidan is a chess and biology tutor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Shrish,
+      position: "Educator",
+      name: "Shrish Goel",
+      content: "Shrish is a computer science tutor who has extensive teaching experience and is proficient in many programming languages. Outside of Edge, he is involved with the Math, Coding, and AI clubs at his school.",
       links: [
         {
           url: "https://twitter.com",
