@@ -19,7 +19,7 @@ const Card = styled.div(props => [
 ]);
 const Image = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
-  tw`w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 flex-shrink-0 h-24 xl:h-40 md:h-32 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
+  tw`w-11/12 sm:w-11/12 md:w-1/2 lg:w-1/2 xl:w-1/2 flex-shrink-0 h-24 sm:h-40 lg:h-32 xl:h-40 md:h-24 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
 ]);
 const Details = tw.div`mt-4 md:mt-0 md:max-w-md mx-4 sm:mx-8 md:mx-4 lg:mx-8`;
 const Subtitle = tw.div`font-bold tracking-wide text-secondary-100`;
