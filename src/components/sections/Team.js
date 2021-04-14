@@ -120,7 +120,7 @@ export default ({
       imageSrc: Megan,
       position: "Chief Marketing Officer",
       name: "Megan Linden",
-      content: "Megan is our CMO; she spearheads our marketing and media departments. Outside of Edge, she competes in speech and debate, is an active Girl Scout, and runs for her school's varsity track team.",
+      content: "Megan is our CMO; she spearheads our marketing and media departments. Outside of Edge, she competes in speech and debate, is an active Girl Scout, and serves as the captain of SMHS's girls varsity track team.",
       links: [
         {
           url: "https://twitter.com",
