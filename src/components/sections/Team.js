@@ -80,7 +80,7 @@ export default ({
       imageSrc: Marcus,
       position: "Chief Operations Officer",
       name: "Marcus Chua",
-      content: "Marcus is a Math, Chemistry, and Writing tutor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
+      content: "Marcus is a Math, Chemistry, and Writing instructor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
       links: [
         {
           url: "https://twitter.com",
@@ -100,7 +100,7 @@ export default ({
       imageSrc: Kevin,
       position: "Chief Technology Officer",
       name: "Kevin Lan",
-      content: "Kevin is a STEM and Computer Science tutor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
+      content: "Kevin is a STEM and Computer Science instructor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
       links: [
         {
           url: "https://twitter.com",
@@ -140,7 +140,7 @@ export default ({
       imageSrc: Lawrence,
       position: "Chief Information Officer",
       name: "Lawrence Chao",
-      content: "Lawrence is a STEM tutor who has had much prior experience in tutoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
+      content: "Lawrence is a STEM instructor who has had much prior experience in instructoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
       links: [
         {
           url: "https://twitter.com",
@@ -160,7 +160,7 @@ export default ({
       imageSrc: Corey,
       position: "Chief Financial Officer",
       name: "Corey Sy",
-      content: "Corey is a STEM and music tutor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
+      content: "Corey is a STEM and Music instructor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -180,7 +180,7 @@ export default ({
       imageSrc: Dowson,
       position: "Director of Mathematics",
       name: "Dowson Yang",
-      content: "Dowson is a Grammar and Math tutor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
+      content: "Dowson is a Grammar and Math instructor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
       links: [
         {
           url: "https://twitter.com",
@@ -200,7 +200,7 @@ export default ({
       imageSrc: Randy,
       position: "Director of Life Sciences",
       name: "Randy Cai",
-      content: "Randy is a STEM tutor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
+      content: "Randy is a STEM instructor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -220,7 +220,7 @@ export default ({
       imageSrc: Mark,
       position: "Director of Humanities",
       name: "Mark MacDermott",
-      content: "Mark is a music, humanities, and debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
+      content: "Mark is a Music, Humanities, and Debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
       links: [
         {
           url: "https://twitter.com",
@@ -240,7 +240,7 @@ export default ({
       imageSrc: Srini,
       position: "Director of Physical Sciences",
       name: "Srinivasan Arumugham",
-      content: "Srinivasan is a STEM and computer science tutor who enjoys teaching and learning new things. Outside of Edge, he co-runs a Computing Club, participates in various STEM Olympiads, and is an AIME qualifier.",
+      content: "Srinivasan is a STEM and Computer Science instructor who enjoys teaching and learning new things. Outside of Edge, he co-runs a Computing Club, participates in various STEM Olympiads, and is an AIME qualifier.",
       links: [
         {
           url: "https://twitter.com",
@@ -260,7 +260,7 @@ export default ({
       imageSrc: Jacob,
       position: "Vice President of Outreach",
       name: "Jacob Brassard",
-      content: "Jacob is a History and Social Studies tutor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
+      content: "Jacob is a History and Social Studies instructor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
       links: [
         {
           url: "https://twitter.com",
@@ -280,7 +280,7 @@ export default ({
       imageSrc: Matthew,
       position: "Educator",
       name: "Matthew Lee",
-      content: "Matthew is a STEM tutor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
+      content: "Matthew is a STEM instructor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
       links: [
         {
           url: "https://twitter.com",
@@ -300,7 +300,7 @@ export default ({
       imageSrc: Amanda,
       position: "Educator",
       name: "Amanda Lopez",
-      content: "Amanda is a chemistry, English, and public speaking tutor with extensive experience in tutoring other students. Outside of Edge, she serves as Marketing VP for SMHS’s robotics team and competes in speech and debate.",
+      content: "Amanda is a Chemistry, English, and Public Speaking instructor with extensive experience in instructoring other students. Outside of Edge, she serves as Marketing VP for SMHS’s robotics team and competes in speech and debate.",
       links: [
         {
           url: "https://twitter.com",
@@ -320,7 +320,7 @@ export default ({
       imageSrc: Cassie,
       position: "Educator",
       name: "Cassandra Liong",
-      content: "Cassandra is a Science, English, and Math tutor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
+      content: "Cassandra is a Science, English, and Math instructor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
       links: [
         {
           url: "https://twitter.com",
@@ -340,7 +340,7 @@ export default ({
       imageSrc: Yuxiang,
       position: "Educator",
       name: "Yuxiang Zhang",
-      content: "Yuxiang is a STEM tutor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
+      content: "Yuxiang is a STEM instructor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
       links: [
         {
           url: "https://twitter.com",
@@ -360,7 +360,7 @@ export default ({
       imageSrc: Marlene,
       position: "Educator",
       name: "Marlene Ketelaar",
-      content: "Marlene is a Biology, Chemistry, and Math tutor and has some experience in the field of chemistry research. Outside of Edge, she plays for the school’s Varsity Volleyball team and is involved in Girls Who Code.",
+      content: "Marlene is a Biology, Chemistry, and Math instructor and has some experience in the field of chemistry research. Outside of Edge, she plays for the school’s Varsity Volleyball team and is involved in Girls Who Code.",
       links: [
         {
           url: "https://twitter.com",
@@ -380,7 +380,7 @@ export default ({
       imageSrc: Jeremy,
       position: "Educator",
       name: "Jeremy Yoo",
-      content: "Jeremy is a math and computer science tutor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
+      content: "Jeremy is a Math and Computer Science instructor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
       links: [
         {
           url: "https://twitter.com",
@@ -400,7 +400,7 @@ export default ({
       imageSrc: Nikkie,
       position: "Educator",
       name: "Nicole Tan",
-      content: "Nicole is a Math, English, and Physics tutor who loves to work with younger students. Outside of Edge, she enjoys competing as a member of her school's tennis team, playing her guitar, and cooking for friends and family.",
+      content: "Nicole is a Math, English, and Physics instructor who loves to work with younger students. Outside of Edge, she enjoys competing as a member of her school's tennis team, playing her guitar, and cooking for friends and family.",
       links: [
         {
           url: "https://twitter.com",
@@ -420,7 +420,7 @@ export default ({
       imageSrc: Jeffrey,
       position: "Educator",
       name: "Jeffrey Deng",
-      content: "Jeffrey is a Computer Science tutor and hackathon enthusiast who has experience in many fields of computer science. Outside of Edge, he participates in robotics & is the president of SMHS's math team.",
+      content: "Jeffrey is a Computer Science instructor and hackathon enthusiast who has experience in many fields of computer science. Outside of Edge, he participates in robotics & is the president of SMHS's math team.",
       links: [
         {
           url: "https://twitter.com",
@@ -440,7 +440,7 @@ export default ({
       imageSrc: Tavis,
       position: "Educator",
       name: "Tavis Chen",
-      content: "Tavis is a STEM tutor that has had experience in multiple fields of chemistry research. Outside of Edge, he serves as the mechanical captain in SMHS's robotics team and captain of the cross country and track team.",
+      content: "Tavis is a STEM instructor that has had experience in multiple fields of chemistry research. Outside of Edge, he serves as the mechanical captain in SMHS's robotics team and captain of the cross country and track team.",
       links: [
         {
           url: "https://twitter.com",
@@ -460,7 +460,7 @@ export default ({
       imageSrc: Ben,
       position: "Educator",
       name: "Ben Guo",
-      content: "Ben is a Computer Science tutor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
+      content: "Ben is a Computer Science instructor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
@@ -480,7 +480,7 @@ export default ({
       imageSrc: Philip,
       position: "Educator",
       name: "Philip Leung",
-      content: "Philip is a STEM and chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
+      content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
       links: [
         {
           url: "https://twitter.com",
@@ -500,7 +500,7 @@ export default ({
       imageSrc: Aidan,
       position: "Educator",
       name: "Aidan Ye",
-      content: "Aidan is a chess and biology tutor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
+      content: "Aidan is a Chess and Biology instructor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
@@ -520,7 +520,7 @@ export default ({
       imageSrc: Shrish,
       position: "Educator",
       name: "Shrish Goel",
-      content: "Shrish is a computer science tutor who has extensive teaching experience and is proficient in many programming languages. Outside of Edge, he is involved with the Math, Coding, and AI clubs at his school.",
+      content: "Shrish is a Computer Science instructor who has extensive teaching experience and is proficient in many programming languages. Outside of Edge, he is involved with the Math, Coding, and AI clubs at his school.",
       links: [
         {
           url: "https://twitter.com",
