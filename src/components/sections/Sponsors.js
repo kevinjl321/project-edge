@@ -17,10 +17,12 @@ const Card = styled.div(props => [
   tw`mt-8 md:flex justify-center items-start`,
   props.reversed ? tw`flex-row-reverse` : "flex-row"
 ]);
-const Image = styled.div(props => [
+
+const EMWImage = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
   tw`w-11/12 sm:w-11/12 md:w-1/2 lg:w-1/2 xl:w-1/2 flex-shrink-0 h-24 sm:h-40 lg:h-32 xl:h-40 md:h-24 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
 ]);
+
 const Details = tw.div`mt-4 md:mt-0 md:max-w-md mx-4 sm:mx-8 md:mx-4 lg:mx-8`;
 const Subtitle = tw.div`font-bold tracking-wide text-secondary-100`;
 const Title = tw.h4`text-3xl font-bold text-gray-900`;
@@ -51,7 +53,7 @@ export default () => {
         <Content>
           {cards.map((card, i) => (
             <Card key={i} reversed={i % 2 === 1}>
-              <Image imageSrc={card.imageSrc} />
+              <EMWImage imageSrc={card.imageSrc} />
               <Details>
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
