@@ -257,10 +257,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Jacob,
-      position: "Vice President of Outreach",
-      name: "Jacob Brassard",
-      content: "Jacob is a History and Social Studies instructor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
+      imageSrc: Matthew,
+      position: "Educator",
+      name: "Matthew Lee",
+      content: "Matthew is a STEM instructor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
       links: [
         {
           url: "https://twitter.com",
@@ -277,10 +277,30 @@ export default ({
       ],
     },
     {
-      imageSrc: Matthew,
+      imageSrc: Philip,
       position: "Educator",
-      name: "Matthew Lee",
-      content: "Matthew is a STEM instructor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
+      name: "Philip Leung",
+      content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Aidan,
+      position: "Educator",
+      name: "Aidan Ye",
+      content: "Aidan is a Chess and Biology instructor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
@@ -457,50 +477,30 @@ export default ({
       ],
     },
     {
+      imageSrc: Jacob,
+      position: "Educator",
+      name: "Jacob Brassard",
+      content: "Jacob is a History and Social Studies instructor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: Ben,
       position: "Educator",
       name: "Ben Guo",
       content: "Ben is a Computer Science instructor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Philip,
-      position: "Educator",
-      name: "Philip Leung",
-      content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Aidan,
-      position: "Educator",
-      name: "Aidan Ye",
-      content: "Aidan is a Chess and Biology instructor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
       links: [
         {
           url: "https://twitter.com",
