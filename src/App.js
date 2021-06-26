@@ -4,7 +4,6 @@ import "tailwindcss/dist/base.css"
 import Home from "pages/Home"
 import AboutUs from "pages/About";
 import OurTeam from "pages/OurTeam"
-import Blog from "pages/Blog";
 import ContactUs from "pages/Contact";
 import SignUp from "pages/SignUp"
 import{ BrowserRouter as Router, Route} from 'react-router-dom';
@@ -28,11 +27,6 @@ class App extends Component{
               <Route path = "/our-team" render = {props => (
                 <React.Fragment>
                   <OurTeam />
-                </React.Fragment>
-              )} />
-              <Route path = "/blog" render = {props => (
-                <React.Fragment>
-                  <Blog />
                 </React.Fragment>
               )} />
               <Route path = "/contact" render = {props => (
