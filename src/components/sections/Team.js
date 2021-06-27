@@ -77,26 +77,6 @@ export default ({
   description = "At Edge, all of our staff members share one common goal: to democratize education.",
   cards = [
     {
-      imageSrc: Marcus,
-      position: "Chief Operations Officer",
-      name: "Marcus Chua",
-      content: "Marcus is a Math, Chemistry, and Writing instructor who has enjoyed instructing in numerous leadership camps. Outside of Edge, he serves as Business President of SMHS's robotics team and President of Red Cross club.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: Kevin,
       position: "Chief Technology Officer",
       name: "Kevin Lan",
