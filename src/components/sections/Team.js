@@ -8,10 +8,8 @@ import {SectionDescription} from "components/base/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
-import { ReactComponent as InstagramIcon } from "images/ig.svg"
 
 import Dowson from "images/Dowson.jpg";
-import Marcus from "images/Marcus.jpg";
 import Randy from "images/Randy.jpg";
 import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
