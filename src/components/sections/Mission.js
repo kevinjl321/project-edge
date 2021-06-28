@@ -38,6 +38,21 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
   tw`w-20 h-20 absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2 fill-current text-primary-200 -z-10`
 ]);
 
+const defaultStatistics = [
+  {
+    key: "Students",
+    value: "100+"
+  },
+  {
+    key: "Hours Taught",
+    value: "3000"
+  },
+  {
+    key: "Partnered Organizations",
+    value: "3"
+  }
+];
+
 export default ({
   heading = (
     <>
@@ -53,27 +68,11 @@ export default ({
   imageDecoratorBlob = false,
   imageDecoratorBlobCss = null,
   imageInsideDiv = true,
-  statistics = null,
+  statistics = defaultStatistics,
   textOnLeft = false
 }) => {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
   //Change the statistics variable as you like, add or delete objects
-  
-  /*const defaultStatistics = [
-    {
-      key: "Students",
-      value: "69"
-    },
-    {
-      key: "Hours Taught",
-      value: "69"
-    },
-    {
-      key: "Awards",
-      value: "69"
-    }
-  ];
-  */
 
   return (
     <Container>

@@ -235,10 +235,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Matthew,
-      position: "Educator",
-      name: "Matthew Lee",
-      content: "Matthew is a STEM instructor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
+      imageSrc: Philip,
+      position: "VP of Outreach",
+      name: "Philip Leung",
+      content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
       links: [
         {
           url: "https://twitter.com",
@@ -255,10 +255,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Philip,
+      imageSrc: Matthew,
       position: "Educator",
-      name: "Philip Leung",
-      content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
+      name: "Matthew Lee",
+      content: "Matthew is a STEM instructor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
       links: [
         {
           url: "https://twitter.com",
