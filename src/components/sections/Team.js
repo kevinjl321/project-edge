@@ -236,7 +236,7 @@ export default ({
     },
     {
       imageSrc: Philip,
-      position: "VP of Outreach",
+      position: "Vice President of Outreach",
       name: "Philip Leung",
       content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
       links: [
