@@ -76,7 +76,7 @@ export default ({
   cards = [
     {
       imageSrc: Kevin,
-      position: "Chief Technology Officer",
+      position: "Co-founder, Chief Technology Officer",
       name: "Kevin Lan",
       content: "Kevin is a STEM and Computer Science instructor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
       links: [
@@ -96,7 +96,7 @@ export default ({
     },
     {
       imageSrc: Randy,
-      position: "Chief Operating Officer",
+      position: "Co-founder, Chief Operating Officer",
       name: "Randy Cai",
       content: "Randy is a STEM instructor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
       links: [
@@ -116,7 +116,7 @@ export default ({
     },
     {
       imageSrc: Megan,
-      position: "Chief Marketing Officer",
+      position: "Co-founder, Chief Marketing Officer",
       name: "Megan Linden",
       content: "Megan is our CMO; she spearheads our marketing and media departments. Outside of Edge, she competes in speech and debate, is an active Girl Scout, and serves as the captain of SMHS's girls varsity track team.",
       links: [
@@ -136,7 +136,7 @@ export default ({
     },
     {
       imageSrc: Lawrence,
-      position: "Chief Information Officer",
+      position: "Co-founder, Chief Information Officer",
       name: "Lawrence Chao",
       content: "Lawrence is a STEM instructor who has had much prior experience in instructoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
       links: [
@@ -156,7 +156,7 @@ export default ({
     },
     {
       imageSrc: Corey,
-      position: "Chief Financial Officer",
+      position: "Co-founder, Chief Financial Officer",
       name: "Corey Sy",
       content: "Corey is a STEM and Music instructor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
       links: [
@@ -176,7 +176,7 @@ export default ({
     },
     {
       imageSrc: Dowson,
-      position: "Director of Mathematics",
+      position: "Co-founder, Director of Mathematics",
       name: "Dowson Yang",
       content: "Dowson is a Grammar and Math instructor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
       links: [
@@ -196,7 +196,7 @@ export default ({
     },
     {
       imageSrc: Mark,
-      position: "Director of Humanities",
+      position: "Co-founder, Director of Humanities",
       name: "Mark MacDermott",
       content: "Mark is a Music, Humanities, and Debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
       links: [
@@ -216,7 +216,7 @@ export default ({
     },
     {
       imageSrc: Srini,
-      position: "Director of Physical Sciences",
+      position: "Co-founder, Director of Physical Sciences",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and Computer Science instructor who enjoys teaching and learning new things. Outside of Edge, he co-runs a Computing Club, participates in various STEM Olympiads, and is an AIME qualifier.",
       links: [
