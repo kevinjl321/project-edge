@@ -31,6 +31,7 @@ import Nikkie from "images/Nikkie.jpg"
 import Marlene from "images/Marlene.png"
 import Aidan from "images/Aidan.jpg"
 import Shrish from "images/Shrish.jpg"
+import Anika from "images/Anika.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -216,7 +217,7 @@ export default ({
     },
     {
       imageSrc: Srini,
-      position: "Co-founder, Director of Physical Sciences",
+      position: "Co-founder, Director of Phys. Sciences",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and Computer Science instructor who enjoys teaching and learning new things. Outside of Edge, he co-runs a Computing Club, participates in various STEM Olympiads, and is an AIME qualifier.",
       links: [
@@ -279,6 +280,26 @@ export default ({
       position: "Educator",
       name: "Aidan Ye",
       content: "Aidan is a Chess and Biology instructor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Anika,
+      position: "Educator",
+      name: "Anika Kesavalu",
+      content: "Anika is a Math, English, Science, and History instructor who enjoys teaching students of all ages. Outside of Edge, she competes for her school’s speech & debate team, is a Girl Scout, and volunteers for the National Charity League. ",
       links: [
         {
           url: "https://twitter.com",
