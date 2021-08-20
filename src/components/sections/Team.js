@@ -76,10 +76,10 @@ export default ({
   description = "At Edge, all of our staff members share one common goal: to democratize education.",
   cards = [
     {
-      imageSrc: Kevin,
-      position: "Co-founder, Chief Technology Officer",
-      name: "Kevin Lan",
-      content: "Kevin is a STEM and Computer Science instructor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
+      imageSrc: Randy,
+      position: "Co-founder, Chief Operating Officer",
+      name: "Randy Cai",
+      content: "Randy is a STEM instructor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
       links: [
         {
           url: "https://twitter.com",
@@ -96,10 +96,10 @@ export default ({
       ],
     },
     {
-      imageSrc: Randy,
-      position: "Co-founder, Chief Operating Officer",
-      name: "Randy Cai",
-      content: "Randy is a STEM instructor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
+      imageSrc: Kevin,
+      position: "Co-founder, Chief Technology Officer",
+      name: "Kevin Lan",
+      content: "Kevin is a STEM and Computer Science instructor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
       links: [
         {
           url: "https://twitter.com",
