@@ -32,6 +32,7 @@ import Marlene from "images/Marlene.png"
 import Aidan from "images/Aidan.jpg"
 import Shrish from "images/Shrish.jpg"
 import Anika from "images/Anika.jpg"
+import Tam from "images/Tam.jpg"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -300,6 +301,26 @@ export default ({
       position: "Educator",
       name: "Anika Kesavalu",
       content: "Anika is a Math, English, Science, and History instructor who enjoys teaching students of all ages. Outside of Edge, she competes for her school’s speech & debate team, is a Girl Scout, and volunteers for the National Charity League. ",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Tam,
+      position: "Educator",
+      name: "Tam Le",
+      content: "Tam is a STEM and English instructor who enjoys helping students of all ages. Outside of Edge, she plays for her school's varsity volleyball/track team and works for the local Los Angeles Pediatric Society. ",
       links: [
         {
           url: "https://twitter.com",
