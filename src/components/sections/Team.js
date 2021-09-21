@@ -261,7 +261,7 @@ export default ({
       imageSrc: Dennis,
       position: "Educator",
       name: "Dennis Rui",
-      content: "Dennis is an computer science and music instructor who has played both violin and viola for over 10 years; additionally, he is currently organizing a hackathon with Project Edge. Outside of Edge, he plays in the Colborn Honors String Quartet Program.",
+      content: "Dennis is a computer science and music instructor; he is also currently organizing a charitable hackathon with Project Edge. Outside of Edge, he plays in the Colborn Honors String Quartet Program.",
       links: [
         {
           url: "https://twitter.com",
