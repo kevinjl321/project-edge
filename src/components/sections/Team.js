@@ -33,6 +33,7 @@ import Aidan from "images/Aidan.jpg"
 import Shrish from "images/Shrish.jpg"
 import Anika from "images/Anika.jpg"
 import Tam from "images/Tam.jpg"
+import Dennis from "images/Dennis.png"
 
 
 const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
@@ -241,6 +242,26 @@ export default ({
       position: "Vice President of Outreach",
       name: "Philip Leung",
       content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: Dennis,
+      position: "Educator",
+      name: "Dennis Rui",
+      content: "Dennis is an computer science and music instructor who has played both violin and viola for over 10 years; additionally, he is currently organizing a hackathon with Project Edge. Outside of Edge, he plays in the Colborn Honors String Quartet Program.",
       links: [
         {
           url: "https://twitter.com",
