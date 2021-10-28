@@ -38,13 +38,6 @@ export default () => {
         "A nonprofit community service organization located in San Marino, CA and serving the surrounding area.",
       url: "https://www.emwpec.org/"
     },
-    {
-      imageSrc: EMWLogo,
-      title: "East Meets West Parent Education Club",
-      description:
-        "A nonprofit community service organization located in San Marino, CA and serving the surrounding area.",
-      url: "https://www.emwpec.org/"
-    },
   ];
 
   return (
