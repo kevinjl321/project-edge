@@ -6,6 +6,7 @@ import Header from "components/essentials/Header"
 import Footer from "components/essentials/Footer"
 import Story from "components/sections/Story"
 import AboutInfo from "components/sections/Courses"
+import Testimonials from "components/sections/Testimonials"
 
 function About() {
     document.title = "About | Project Edge";
@@ -14,6 +15,7 @@ function About() {
         <Header />
         <Story />
         <AboutInfo />
+        <Testimonials />
         <Footer />
       </AnimationRevealPage>
     )

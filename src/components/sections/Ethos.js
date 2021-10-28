@@ -7,7 +7,7 @@ import { PrimaryButton as PrimaryButtonBase } from "components/base/Buttons.js";
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
 
-const Container = tw.div`relative bg-gray-700 -mx-8 px-8 text-gray-100`;
+const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-6/12 flex-shrink-0 relative`;
@@ -32,7 +32,7 @@ const Subheading = tw(SubheadingBase)`text-center md:text-left`;
 const Heading = tw(
   SectionHeading
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
-const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-gray-300`;
+const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-gray-400`;
 
 const PrimaryButton = styled(PrimaryButtonBase)(props => [
   tw`mt-8 md:mt-8 text-sm inline-block mx-auto md:mx-0`,

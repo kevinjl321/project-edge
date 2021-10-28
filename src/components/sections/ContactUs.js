@@ -6,7 +6,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/base/He
 import { PrimaryButton as PrimaryButtonBase } from "components/base/Buttons.js";
 import EmailIllustrationSrc from "images/email-illustration.svg";
 
-const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
+const Container = tw.div`relative bg-white -mx-8 px-8 text-gray-800`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-5/12 flex-shrink-0 h-80 md:h-auto`;
@@ -26,7 +26,7 @@ const Heading = tw(SectionHeading)`mt-4 font-black text-left text-3xl sm:text-4x
 const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-gray-600`
 
 const Form = tw.form`mt-8 md:mt-10 text-sm flex flex-col max-w-sm mx-auto md:mx-0 `
-const Input = tw.input`bg-gray-200 mt-6 first:mt-0 border-b-2 py-3 focus:outline-none font-medium transition duration-300 hocus:border-primary-500`
+const Input = tw.input`bg-white mt-6 first:mt-0 border-b-2 py-3 focus:outline-none font-medium transition duration-300 hocus:border-primary-500`
 const Textarea = styled(Input).attrs({as: "textarea"})`
   ${tw`h-24`}
 `
@@ -36,7 +36,7 @@ const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
 export default ({
   subheading = "Contact Us",
   heading = <>Contact Us</>,
-  description = "Have any questions about what we do? Interested in becoming an educator? Just want to talk? Shoot us an email through the form below and we'll get back to you within a few business days.",
+  description = "Have any questions about what we do? Interested in becoming an educator? Just want to talk? Shoot us an email through the form below and we'll get back to you within a few days.",
   submitButtonText = "Submit",
   formAction = "https://getform.io/f/8866f353-9bf2-4fbe-baa4-682b0c6d8623",
   formMethod = "POST",

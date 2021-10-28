@@ -6,6 +6,7 @@ import logo from "../../images/logo.png";
 
 import {FaFacebookF, FaLinkedin} from "react-icons/fa";
 import {SiInstagram} from "react-icons/si";
+import {MdEmail} from "react-icons/md"
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -52,8 +53,8 @@ export default () => {
             <SocialLink target = "_blank" href="https://instagram.com/projectedgeofficial">
               <SiInstagram />
             </SocialLink>
-            <SocialLink target = "_blank" href="https://www.linkedin.com/company/project-edge-learning">
-              <FaLinkedin />
+            <SocialLink target = "_blank" href="mailto:admin@project-edge.org">
+              <MdEmail />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>

@@ -8,6 +8,7 @@ import {SectionDescription} from "components/base/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import {MdEmail, MdMail} from "react-icons/md"
 
 import Dowson from "images/Dowson.jpg";
 import Randy from "images/Randy.jpg";
@@ -17,30 +18,16 @@ import Srini from "images/Srini.jpg"
 import Philip from "images/Philip.jpg"
 import Lawrence from "images/Lawrence.jpg"
 import Corey from "images/Corey.jpg"
-import Tavis from "images/Tavis.png"
-import Yuxiang from "images/Yuxiang.jpg"
-import Ben from "images/Ben.png"
-import Jeffrey from "images/Jeffrey.jpg"
 import Megan from "images/Megan.jpg"
-import Matthew from "images/Matthew.png"
-import Jeremy from "images/Jeremy.jpg"
-import Cassie from "images/Cassie.jpg"
-import Amanda from "images/Amanda.png"
-import Jacob from "images/Jacob.jpg"
-import Nikkie from "images/Nikkie.jpg"
-import Marlene from "images/Marlene.png"
 import Aidan from "images/Aidan.jpg"
-import Shrish from "images/Shrish.jpg"
-import Anika from "images/Anika.jpg"
-import Tam from "images/Tam.jpg"
 import Dennis from "images/Dennis.png"
 
 
-const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
+const Container = tw.div`relative bg-white -mx-8 px-8 text-gray-800`;
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
 const Subheading = tw(SubheadingBase)`text-center mb-3 text-blue-500`
-const Description = tw(SectionDescription)`mx-auto text-center text-gray-700`
+const Description = tw(SectionDescription)`mx-auto text-center text-gray-600`
 const Content = tw(SectionDescription)`mx-auto text-center`
 
 const Cards = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`
@@ -65,7 +52,7 @@ const CardContent = styled.div`
 const CardLinks = styled.div`
   ${tw`mt-6 flex`}
   .link {
-    ${tw`mr-8 last:mr-0 text-gray-200 hocus:text-primary-500 transition duration-300`}
+    ${tw`mr-8 last:mr-0 text-gray-600 hocus:text-primary-500 transition duration-300`}
     .icon {
       ${tw`fill-current w-6 h-6`}
     }
@@ -74,506 +61,138 @@ const CardLinks = styled.div`
 
 export default ({
   heading = "Meet Team Edge!",
-  subheading = "Our Team",
-  description = "At Edge, all of our staff members share one common goal: to democratize education.",
+  subheading = "Leadership Team",
+  description = "At Edge, all of our staff members share one common goal: to democratize education. We seek to bring personalized education to all, one class at a time.",
   cards = [
     {
-      imageSrc: Randy,
-      position: "Co-founder, Chief Operating Officer",
-      name: "Randy Cai",
-      content: "Randy is a STEM instructor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: Kevin,
-      position: "Co-founder, Chief Technology Officer",
+      position: "Co-founder, Director of Technology",
       name: "Kevin Lan",
       content: "Kevin is a STEM and Computer Science instructor who has developed numerous websites. Outside of Edge, he runs a Computing Club and enjoys working on projects and participating in programming competitions. ",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:kevinlan321@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Megan,
-      position: "Co-founder, Chief Marketing Officer",
+      position: "Co-founder, Director of Publicity",
       name: "Megan Linden",
-      content: "Megan is our CMO; she spearheads our marketing and media departments. Outside of Edge, she competes in speech and debate, is an active Girl Scout, and serves as the captain of SMHS's girls varsity track team.",
+      content: "Megan spearheads our marketing and media departments. Outside of Edge, she competes in speech and debate, is an active Girl Scout, and serves as the captain of SMHS's girls varsity track team.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Lawrence,
-      position: "Co-founder, Chief Information Officer",
-      name: "Lawrence Chao",
-      content: "Lawrence is a STEM instructor who has had much prior experience in instructoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:meganlinden2@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Corey,
-      position: "Co-founder, Chief Financial Officer",
+      position: "Co-founder, Director of Finances",
       name: "Corey Sy",
       content: "Corey is a STEM and Music instructor who has been playing violin for more than eight years, and has even performed at Carnegie Hall. Outside of Edge, he serves as Co-Concertmaster of the GYO and is a MTAC panel finalist.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "mailto:coreyzsy@gmail.com",
+          icon: MdMail,
         },
+      ],
+    },
+    {
+      imageSrc: Randy,
+      position: "Co-founder, Curriculum Director",
+      name: "Randy Cai",
+      content: "Randy is a STEM instructor who enjoys learning about all things science and research. Outside of Edge, Randy serves as the Captain of SMHS's Science Team and is a two-time USA Biology Olympiad Semifinalist.",
+      links: [
         {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:randycai03@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Dowson,
-      position: "Co-founder, Director of Mathematics",
+      position: "Co-founder, Curriculum Director",
       name: "Dowson Yang",
       content: "Dowson is a Grammar and Math instructor who enjoys teaching students from 6th to 10th grade. Outside of Edge, Dowson is involved with SMHS's robotics team, math team, and varsity golf team.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:dowsonyang21@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Mark,
-      position: "Co-founder, Director of Humanities",
+      position: "Co-founder, Curriculum Director",
       name: "Mark MacDermott",
       content: "Mark is a Music, Humanities, and Debate instructor. Outside of Edge, Mark serves as the Captain of the historic SMHS Debate Team and enjoys pursuing music production through self study and exploration.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:markmacdermott@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Srini,
-      position: "Co-founder, Director of Phys. Sciences",
+      position: "Co-founder, Curriculum Director",
       name: "Srinivasan Arumugham",
       content: "Srinivasan is a STEM and Computer Science instructor who enjoys teaching and learning new things. Outside of Edge, he co-runs a Computing Club, participates in various STEM Olympiads, and is an AIME qualifier.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "mailto:srinivasan2003@outlook.com",
+          icon: MdMail,
         },
+      ],
+    },
+    {
+      imageSrc: Lawrence,
+      position: "Co-founder, Curriculum Director",
+      name: "Lawrence Chao",
+      content: "Lawrence is a STEM instructor who has had much prior experience in instructoring fellow students of all ages. Outside of Edge, he is part of his school's math team and CalTech's student research group.",
+      links: [
         {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:lawrencec1007@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Philip,
-      position: "Vice President of Outreach",
+      position: "Curriculum Director",
       name: "Philip Leung",
       content: "Philip is a STEM and Chess instructor who enjoys teaching 6th to 10th grade students. Outside of Edge, Philip is a nationally ranked chess player who also runs his own streetwear reselling business.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Dennis,
-      position: "Educator",
-      name: "Dennis Rui",
-      content: "Dennis is a computer science and music instructor; he is also currently organizing a charitable hackathon with Project Edge. Outside of Edge, he plays in the Colborn Honors String Quartet Program.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Matthew,
-      position: "Educator",
-      name: "Matthew Lee",
-      content: "Matthew is a STEM instructor who has extensive experience in math and computer science. Outside of Edge, he is interested in the intersection of technology and society, and leads San Marino's robotics and math teams.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:philiprobertl@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
       imageSrc: Aidan,
-      position: "Educator",
+      position: "Curriculum Director",
       name: "Aidan Ye",
       content: "Aidan is a Chess and Biology instructor who enjoys all things STEM. Outside of Edge, he enjoys long distance bike trips, is a nationally ranked chess player, and plays for SMHS's varsity badminton team.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:aidanye2004@gmail.com",
+          icon: MdMail,
         },
       ],
     },
     {
-      imageSrc: Anika,
-      position: "Educator",
-      name: "Anika Kesavalu",
-      content: "Anika is a Math, English, Science, and History instructor who enjoys teaching students of all ages. Outside of Edge, she competes for her school’s speech & debate team, is a Girl Scout, and volunteers for the National Charity League. ",
+      imageSrc: Dennis,
+      position: "Curriculum Director",
+      name: "Dennis Rui",
+      content: "Dennis is a computer science and music instructor; he is also currently organizing a charitable hackathon with Project Edge. Outside of Edge, he plays in the Colborn Honors String Quartet Program.",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Tam,
-      position: "Educator",
-      name: "Tam Le",
-      content: "Tam is a STEM and English instructor who enjoys helping students of all ages. Outside of Edge, she plays for her school's varsity volleyball/track team and works for the local Los Angeles Pediatric Society. ",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Amanda,
-      position: "Educator",
-      name: "Amanda Lopez",
-      content: "Amanda is a Chemistry, English, and Public Speaking instructor with extensive experience in instructoring other students. Outside of Edge, she serves as Marketing VP for SMHS’s robotics team and competes in speech and debate.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Cassie,
-      position: "Educator",
-      name: "Cassandra Liong",
-      content: "Cassandra is a Science, English, and Math instructor who enjoys assisting students of all ages, especially at the elementary and middle school level. She also enjoys playing sports and making crafts.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Yuxiang,
-      position: "Educator",
-      name: "Yuxiang Zhang",
-      content: "Yuxiang is a STEM instructor who enjoys applying computer science to solve problems. Outside of Edge, he is a mentor for Computing Club, and is on the science, math, robotics, and Caltech student research team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Marlene,
-      position: "Educator",
-      name: "Marlene Ketelaar",
-      content: "Marlene is a Biology, Chemistry, and Math instructor and has some experience in the field of chemistry research. Outside of Edge, she plays for the school’s Varsity Volleyball team and is involved in Girls Who Code.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Jeremy,
-      position: "Educator",
-      name: "Jeremy Yoo",
-      content: "Jeremy is a Math and Computer Science instructor who has extensive experience developing apps and websites. Outside of Edge, he is involved with SMHS's robotics, math, computing, and hack teams/clubs.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Nikkie,
-      position: "Educator",
-      name: "Nicole Tan",
-      content: "Nicole is a Math, English, and Physics instructor who loves to work with younger students. Outside of Edge, she enjoys competing as a member of her school's tennis team, playing her guitar, and cooking for friends and family.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Jeffrey,
-      position: "Educator",
-      name: "Jeffrey Deng",
-      content: "Jeffrey is a Computer Science instructor and hackathon enthusiast who has experience in many fields of computer science. Outside of Edge, he participates in robotics & is the president of SMHS's math team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Tavis,
-      position: "Educator",
-      name: "Tavis Chen",
-      content: "Tavis is a STEM instructor that has had experience in multiple fields of chemistry research. Outside of Edge, he serves as the mechanical captain in SMHS's robotics team and captain of the cross country and track team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Jacob,
-      position: "Educator",
-      name: "Jacob Brassard",
-      content: "Jacob is a History and Social Studies instructor who competes in domestic extemporaneous speaking. Outside of Edge, he volunteers for EMWC club and works part time as a life guard at the Rose Bowl Aquatics Center.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Ben,
-      position: "Educator",
-      name: "Ben Guo",
-      content: "Ben is a Computer Science instructor who has experience in multiple fields of machine learning and data science. Outside of Edge, he serves as team captain of SMHS's varsity badminton team.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: Shrish,
-      position: "Educator",
-      name: "Shrish Goel",
-      content: "Shrish is a Computer Science instructor who has extensive teaching experience and is proficient in many programming languages. Outside of Edge, he is involved with the Math, Coding, and AI clubs at his school.",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "mailto:dennis.z.rui@gmail.com",
+          icon: MdMail,
         },
       ],
     },
@@ -594,10 +213,7 @@ export default ({
               <CardContent>
                 <span className="position">{card.position}</span>
                 <span className="name">{card.name}</span>
-                <Content>
-                  <p className="content">{card.content}</p>
-                </Content>
-                {/*
+                {
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (
                     <a key={linkIndex} className="link" href={link.url}>
@@ -605,7 +221,7 @@ export default ({
                     </a>
                   ))}
                 </CardLinks>
-                  */}
+                }
               </CardContent>
             </Card>
           ))}

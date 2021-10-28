@@ -34,7 +34,7 @@ export default ({
   <wbr />
   <span class = "text-color"> one student at a time.</span>
 </>,
-  description="Further your education. Learn real world skills. All for the low price of $0; no catches, no hidden fees ever.",
+  description="Further your education. Learn real world skills. Free of cost.",
   primaryButtonText="Learn More",
   primaryButtonUrl="/about",
   secondaryButtonText = "Sign Up",

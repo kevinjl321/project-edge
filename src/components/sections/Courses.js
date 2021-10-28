@@ -8,14 +8,14 @@ import { SectionDescription } from "components/base/Typography.js";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
-const Container = tw.div`relative bg-gray-800 -mx-8 px-8 text-gray-100`;
+const Container = tw.div`relative bg-gray-900 -mx-8 px-8 text-gray-100`;
 
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24`}
 `;
 const Subheading = tw(SubheadingBase)`mb-4`;
 const Heading = tw(SectionHeading)`w-full`;
-const Description = tw(SectionDescription)`w-full text-center`;
+const Description = tw(SectionDescription)`w-full text-center text-gray-400`;
 
 const VerticalSpacer = tw.div`mt-10 w-full`
 
@@ -37,7 +37,7 @@ const Card = styled.div`
   }
 
   .title {
-    ${tw`mt-4 tracking-wide font-bold text-2xl leading-none`}
+    ${tw`mt-4 tracking-wide font-bold text-2xl leading-none text-primary-500`}
   }
 
   .description {
