@@ -42,7 +42,7 @@ export default () => {
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/our-team">Our Team</Link>
-            <Link href="https://project-edge-blog.vercel.app/">Blog</Link>
+            <Link href="https://blog.project-edge.org/">Blog</Link>
             <Link href="/contact">Contact Us</Link>
             <Link href="https://docs.google.com/forms/d/1UhsrBAIGHhkUx9sy8-nQ374zae-4EJIdhyN1mis-B9g/edit?usp=sharing" target="_blank">Join Us</Link>
           </LinksContainer>
