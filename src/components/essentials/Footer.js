@@ -17,8 +17,8 @@ const LogoContainer = tw.div`flex items-center justify-center md:justify-start`;
 const LogoImg = tw.img`w-8`;
 const LogoText = tw.h5`ml-2 text-2xl font-black tracking-wider`;
 
-const CompanyDescription = tw.p`mt-8 text-center max-w-lg font-semibold text-gray-400 text-sm mx-auto md:mx-0 md:mr-4 `;
-
+const CompanyDescription = tw.p`mt-8 text-center max-w-lg font-bold text-gray-500 text-base mx-auto md:mx-0 md:mr-4 `;
+const EIN = tw.p`font-medium`;
 const LinksContainer = tw.div`mt-8 font-medium flex flex-wrap justify-center items-center flex-col sm:flex-row`
 const Link = tw.a`border-b-2 border-transparent hocus:text-gray-300 hocus:border-gray-300 pb-1 transition duration-300 mt-2 mx-4`;
 
@@ -44,7 +44,7 @@ export default () => {
             Project Edge is a 501(c)(3) nonprofit organization.
             <br></br>
             <br></br>
-            <span class="font-medium">EIN: 87-0834924</span>
+            <EIN>EIN: 87-0834924</EIN>
           </CompanyDescription>
           <LinksContainer>
             <Link href="/">Home</Link>
