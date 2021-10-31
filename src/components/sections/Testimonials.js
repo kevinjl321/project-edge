@@ -50,32 +50,32 @@ const ControlButton = styled.button`
 export default ({
   subheading = "",
   heading = "Testimonials",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "See what students, parents, and educators have to say about our work.",
   testimonials = [
     {
-      customerName: "David Hanson",
-      customerProfile: "CEO, Koalify",
-      imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.85&w=256&h=256&q=80",
-      quote:
-        "We have been using servana for about 2 years. And in that time we have had no problem at all. The user interface is really simple to use. Our services scale automatically and we never have to worry about downtimes. is as described."
-    },
-    {
-      customerName: "Serena Davis",
-      customerProfile: "Founder, Travana",
-      imageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=256&h=256&q=80",
-      quote:
-        "We are delighted with the quality and performance of the servers that servana provides. The uptime is amazing and the internet connection is great for the price we are paying."
-    },
-    {
-      customerName: "Timothy Burr",
-      customerProfile: "CTO, Coronax",
+      customerName: "R.R.",
+      customerProfile: "LAUSD Teacher",
       imageSrc:
         "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=256&h=256&q=80",
       quote:
-        "It has been 8 months since we have switched to servana and it has nothing but an amazing experience. The cost is affordable, support is great, uptime is as described."
-    }
+        "Teaching in LA Unified has been extremely difficult. Many students suffered from personal loss and lost an interest to succeed in school. Thank you for allowing any student to get the help they needed when teachers like me are unable to help everyone."
+    },
+    {
+      customerName: "L.J.",
+      customerProfile: "Parent",
+      imageSrc:
+        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.85&w=256&h=256&q=80",
+      quote:
+        "Thank you very much for doing this. My son loved learning Scratch and you did a great job tutoring. I'd love to see where Project Edge is headed!"
+    },
+    {
+      customerName: "J.M.",
+      customerProfile: "Parent",
+      imageSrc:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=256&h=256&q=80",
+      quote:
+        "Thank you so much for tutoring and mentoring my son. You are all so bright, humble, patient and mature for your age. We are so grateful to have come across Project Edge and really appreciate all the good work you and the team have done for our community!"
+    },
   ]
 }) => {
   const [sliderRef, setSliderRef] = useState(null)
@@ -98,7 +98,6 @@ export default ({
                 </Quote>
               </QuoteContainer>
               <CustomerInfoAndControlsContainer>
-                <CustomerImage src={testimonial.imageSrc} />
                 <CustomerNameAndProfileContainer>
                   <CustomerName>
                     {testimonial.customerName}
