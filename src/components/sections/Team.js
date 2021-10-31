@@ -64,7 +64,7 @@ export default ({
   Meet <span tw="text-primary-500">Team Edge!</span>
 </>),
   subheading = "Leadership Team",
-  description = "At Edge, all of our staff members share one common goal: to democratize education. We seek to bring personalized education to all, one class at a time.",
+  description = "We are a group of students striving towards one common goal: to democratize and personalize education, one student at a time.",
   cards = [
     {
       imageSrc: Kevin,
