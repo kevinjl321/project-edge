@@ -19,7 +19,7 @@ const StatValue = tw.div`text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-black
 export default ({
   subheading = "",
   heading = "Our Impact",
-  description = "",
+  description = "In our journey to democratize and personalize education so far, we have:",
   stats = [
     {
       key: "Students",

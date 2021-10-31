@@ -22,7 +22,7 @@ const ThreeColumnContainer = styled.div`
 `;
 const Subheading = tw(SubheadingBase)`mb-4 text-gray-100`;
 const Heading = tw(SectionHeading)`w-full`;
-const Description = tw(SectionDescription)`w-full text-center text-gray-300`;
+const Description = tw(SectionDescription)`w-full text-center text-gray-400`;
 
 const VerticalSpacer = tw.div`mt-10 w-full`;
 
@@ -56,7 +56,7 @@ export default ({
   cards = null,
   heading = "Who Are We?",
   subheading = "",
-  description = "Project Edge is a student-run educational initiative helping students succeed in all academic respects, free of cost."
+  description = "Project Edge is a student-run, 501(c)(3) non-profit organization helping students succeed in all academic respects, free of cost."
 }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
@@ -70,7 +70,7 @@ export default ({
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "Our services are free of charge; transaction security will not be needed nor required.",
+      description: "Our services are free and we utilize widely popular platforms such as Zoom and Calendly.",
     },
     { 
       imageSrc: SupportIconImage, 
@@ -79,20 +79,20 @@ export default ({
     },
     { 
       imageSrc: CustomizeIconImage, 
-      title: "Customizable",
-      description: "Our many instructors can accommodate and assist you with any need; just ask! " },
+      title: "Personalized",
+      description: "We work to give students a personalized education experience that helps them succeed." },
     { 
       imageSrc: ReliableIconImage, 
       title: "Interactive",
-      description: "We believe learning is best done actively; our instructors emphasize interaction and conversation." },
+      description: "Learning is best done actively; our instructors emphasize interaction and conversation." },
     { 
       imageSrc: FastIconImage, 
       title: "Fast",
-      description: "Schedule each instructional session with just a few clicks using our Calendly." },
+      description: "Schedule each instructional session with just a few clicks using Calendly." },
     { 
       imageSrc: SimpleIconImage, 
       title: "Community",
-      description: "We aim to build a large community of students and teachers who are committed to improving." }
+      description: "Project Edge is a large community of students and instructors who are committed to improving." }
   ];
 
   if (!cards) cards = defaultCards;

@@ -20,7 +20,7 @@ function Home() {
         <Impact />
         <TeamIntro />
         <Sponsors />
-        {/* <FAQ /> */} 
+        <FAQ /> 
         <Footer />
       </AnimationRevealPage>
     )

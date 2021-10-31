@@ -60,7 +60,9 @@ const CardLinks = styled.div`
 `
 
 export default ({
-  heading = "Meet Team Edge!",
+  heading = (<>
+  Meet <span tw="text-primary-500">Team Edge!</span>
+</>),
   subheading = "Leadership Team",
   description = "At Edge, all of our staff members share one common goal: to democratize education. We seek to bring personalized education to all, one class at a time.",
   cards = [

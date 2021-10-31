@@ -3,8 +3,9 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { SectionHeading as HeadingTitle } from "../base/Headings.js";
 import EMWLogo from "images/EMWLogo.jpg"
+import Steamcoders from "images/steamcoders.png"
 
-const Container = tw.div`relative bg-gray-500 -mx-8 px-8 text-gray-800`;
+const Container = tw.div`relative bg-gray-200 -mx-8 px-8 text-gray-800`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
@@ -38,6 +39,13 @@ export default () => {
         "A nonprofit community service organization located in San Marino, CA and serving the surrounding area.",
       url: "https://www.emwpec.org/"
     },
+    {
+      imageSrc: Steamcoders,
+      title: "STEAMCODERS",
+      description:
+        "A nonprofit organization based in Pasadena, CA that inspires underprivileged students and families through STEAM (Science, Technology, Engineering, Art, and Math).",
+      url: "http://www.steamcoders.org/"
+    },
   ];
 
   return (
@@ -52,7 +60,7 @@ export default () => {
 
         <Content>
           {cards.map((card, i) => (
-            <Card key={i} reversed={i % 2 === 1}>
+            <Card key={i}>
               <EMWImage imageSrc={card.imageSrc} />
               <Details>
                 <Subtitle>{card.subtitle}</Subtitle>

@@ -19,7 +19,7 @@ const Column = tw.div`flex flex-col items-center`;
 const HeaderContent = tw.div``;
 
 const FAQSContainer = tw.dl`mt-12 max-w-4xl relative`;
-const FAQ = tw.div`cursor-pointer select-none mt-5 px-8 sm:px-10 py-5 sm:py-4 rounded-lg text-gray-800 hover:text-gray-900 bg-gray-200 hover:bg-gray-300 transition duration-300`;
+const FAQ = tw.div`cursor-pointer select-none mt-5 px-8 sm:px-10 py-5 sm:py-4 rounded-lg text-gray-800 hover:text-gray-900 bg-gray-200 hover:bg-blue-200 transition duration-300`;
 const Question = tw.dt`flex justify-between items-center`;
 const QuestionText = tw.span`text-lg lg:text-xl font-semibold`;
 const QuestionToggleIcon = motion.custom(styled.span`
@@ -42,27 +42,32 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "",
   heading = "FAQ",
-  description = "Some of our most commonly asked questions. If your question isn't answered below, please feel free to contact us!",
+  description = "If your question isn't answered below, please feel free to contact us!",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "How do I sign up?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "Sign up for a class through this website and choose a time and subject. You'll receive a Zoom link for your instructional session 24-48 hours before your scheduled time. That's it!"
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Are there any restrictions to the amount of classes I can take?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "We ask that you minimize your sessions to two 30 minute classes per day."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "When are classes offered?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Our operating ours are Monday through Friday from 3pm - 6pm. Please sign up for classes 72 hours in advance; in the rare event that no instructors are available for a specific time slot, we'll notify you immediately and request that you reschedule."
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "What if I can't make it to a session I signed up for?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "We ask that you cancel sessions at least 24 hours in advance unless there are emergency circumstances."
+    },
+    {
+      question: "How can I get involved?",
+      answer: "If you're interested in becoming an instructor, navigate to the join us link on our website and fill out the form. From there, you'll undergo a screening and interview process. Once we approve you for the team, you're all set and can start teaching right away!"
+
     }
   ]
 }) => {

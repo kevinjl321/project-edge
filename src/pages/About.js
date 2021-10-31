@@ -5,7 +5,6 @@ import AnimationRevealPage from "helpers/AnimationRevealPage"
 import Header from "components/essentials/Header"
 import Footer from "components/essentials/Footer"
 import Story from "components/sections/Story"
-import AboutInfo from "components/sections/Courses"
 import Testimonials from "components/sections/Testimonials"
 
 function About() {
@@ -14,7 +13,6 @@ function About() {
       <AnimationRevealPage disabled>
         <Header />
         <Story />
-        <AboutInfo />
         <Testimonials />
         <Footer />
       </AnimationRevealPage>

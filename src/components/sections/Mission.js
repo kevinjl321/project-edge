@@ -59,8 +59,8 @@ export default ({
       Mission Statement
     </>
   ),
-  description = "At Edge, we believe education and personalized help is a right, not a privilege. Through our services, we help students overcome academic hardships and explore subjects a rudimentary K-12 education cannot offer.",
-  primaryButtonText = "Learn More",
+  description = "At Project Edge, we believe personalized education is a right, not a privilege. Through our services, we help students overcome academic hardships and explore subjects a rudimentary K-12 education cannot offer.",
+  primaryButtonText = "Learn more",
   primaryButtonUrl = "",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
