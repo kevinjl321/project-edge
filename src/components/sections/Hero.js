@@ -34,7 +34,7 @@ export default ({
   <wbr />
   <span class = "text-color"> one student at a time.</span>
 </>,
-  description="Further your education. Learn real world skills. Free of cost.",
+  description="Project Edge delivers free, personalized instructional sessions to students and communities from around the world, giving them a chance to further their education and learn real world skills.",
   primaryButtonText="Learn More",
   primaryButtonUrl="/about",
   secondaryButtonText = "Sign Up",
