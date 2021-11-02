@@ -41,7 +41,7 @@ export default () => {
     },
     {
       imageSrc: Steamcoders,
-      title: "STEAMCODERS",
+      title: "STEAM:CODERS",
       description:
         "A nonprofit organization based in Pasadena, CA that inspires underprivileged students and families through STEAM (Science, Technology, Engineering, Art, and Math).",
       url: "http://www.steamcoders.org/"
