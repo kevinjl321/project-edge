@@ -11,7 +11,7 @@ import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 import {MdEmail, MdMail} from "react-icons/md"
 
 import Dowson from "images/Dowson.jpg";
-import Randy from "images/Randy.jpg";
+import Randy from "images/Randy.png";
 import Mark from "images/Mark.jpg"
 import Kevin from "images/Kevin.jpg"
 import Srini from "images/Srini.jpg"
