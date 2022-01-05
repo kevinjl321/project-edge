@@ -66,7 +66,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; 2021 project edge | designed and developed by kevin lan
+            &copy; 2022 project edge | designed and developed by kevin lan
           </CopyrightText>
         </Row>
       </Content>
